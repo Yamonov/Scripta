@@ -4,11 +4,11 @@
         <title>Scripta</title>
         <item>
             <title>0.6</title>
-            <pubDate>Mon, 20 Apr 2026 21:42:26 +0900</pubDate>
-            <sparkle:version>1</sparkle:version>
+            <pubDate>Mon, 20 Apr 2026 21:58:30 +0900</pubDate>
+            <sparkle:version>0.6</sparkle:version>
             <sparkle:shortVersionString>0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v0.6/Scripta-0.6.zip" length="2574458" type="application/octet-stream" sparkle:edSignature="JkJhR5XHS/UOliKNodV+Oo1ZsKmYrUdqAiCmm/SpvimxQTu3u15Cg0QkEykrXYKmn/GsHpiARRqLETOQDA3QAw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v0.6/Scripta-0.6.zip" length="2574469" type="application/octet-stream" sparkle:edSignature="OjlLNVKRzHYL0LT3oMh3yFpJ5gsNSYkna2SBH1ZLuxrAkzqyHvTII7zp1ZP8qTq47z9f9tMKJOa7mEbAKlMgDA=="/>
         </item>
     </channel>
 </rss>

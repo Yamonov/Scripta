@@ -5,6 +5,7 @@ Edge-tab script launcher for Illustrator, Photoshop, and InDesign on macOS
 
 Illustrator、Photoshop、そしてInDesign用のスクリプトランチャーです。
 指定した画面端にタブで常駐し、Ai/Ps/IDでのみ表示します。
+対応OSはSequoia以降。Intel/AppleSilicon両対応
 
 ## 機能
 

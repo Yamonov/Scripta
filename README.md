@@ -1,6 +1,6 @@
 <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/c72384f9-d5ff-42c9-a06b-a1d2f1ee21de" />
 
-# Scripta
+# Scripta!
 Edge-tab script launcher for Illustrator, Photoshop, and InDesign on macOS
 
 Illustrator、Photoshop、そしてInDesign用のスクリプトランチャーです。

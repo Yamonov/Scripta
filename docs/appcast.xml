@@ -1,19 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>ACEMenuPlus</title>
+        <title>Scripta</title>
         <item>
-            <title>3.1.2</title>
-            <pubDate>Sun, 19 Apr 2026 15:09:43 +0900</pubDate>
-            <sparkle:version>312</sparkle:version>
-            <sparkle:shortVersionString>3.1.2</sparkle:shortVersionString>
-            <description><![CDATA[
-<ul>
-  <li>自動更新のバグ修正</li>
-</ul>
-]]></description>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Yamonov/ACEMenu2/releases/download/v3.1.2/ACEMenuPlus-3.1.2.zip" length="2235913" type="application/octet-stream" sparkle:edSignature="JoI+HqDV0w89TUjRiQT9umSQPpYmBt2CiIG0fbsJOYN1pUAT770CcpsUilb3koUF/Hk4N4uA2Cx9Rmv/5xwRDA=="/>
+            <title>0.6</title>
+            <pubDate>Mon, 20 Apr 2026 21:42:26 +0900</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v0.6/Scripta-0.6.zip" length="2574458" type="application/octet-stream" sparkle:edSignature="JkJhR5XHS/UOliKNodV+Oo1ZsKmYrUdqAiCmm/SpvimxQTu3u15Cg0QkEykrXYKmn/GsHpiARRqLETOQDA3QAw=="/>
         </item>
     </channel>
 </rss>

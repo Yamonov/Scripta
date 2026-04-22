@@ -3,16 +3,20 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Tue, 21 Apr 2026 23:08:56 +0900</pubDate>
-            <sparkle:version>1.0.1</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <title>1.0.3</title>
             <description><![CDATA[
-                <h2>Scripta 1.0.1</h2>
-                <p>安定化＆高速化とバグの修正</p>
+<ul>
+  <li>メモリ使用量を大幅に削減</li>
+  <li>細かなバグを修正</li>
+  <li>アプリ切り替え追従を高速化</li>
+  <li>影付きUIの切り替え設定を追加</li>
+</ul>
             ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.0.1/Scripta-1.0.1.zip" length="2655389" type="application/octet-stream" sparkle:edSignature="VvJJKLkjUt439BAcqdt8kF2XwyPBC5CVtJI0X9s3dYI9ZPonP9UAI2fbJ0eVwJ3f4z83mjnEI06Af9KAQ6T3Bw=="></enclosure>
+            <pubDate>Wed, 22 Apr 2026 11:35:40 +0900</pubDate>
+            <sparkle:version>1.0.3</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yamonov/Scripta/releases/download/v1.0.3/Scripta-1.0.3.zip" length="2683537" type="application/octet-stream" sparkle:edSignature="Yh0wjLnX5mMOyBBMqWFSn8Yn3R7p/Ros0QkvuGcJoqiZKRUrRitgrW5rAkn76wROfYQWJODQ2lgxusm9/wMcCQ=="/>
         </item>
     </channel>
 </rss>

@@ -3,27 +3,19 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.0.5</title>
-            <pubDate>Thu, 23 Apr 2026 11:53:29 +0900</pubDate>
-            <sparkle:version>1.0.5</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <title>1.0.6</title>
+            <pubDate>Thu, 23 Apr 2026 16:48:59 +0900</pubDate>
+            <sparkle:version>1.0.6</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>フォルダの展開状態表示とお気に入り表示を修正（Thanks: @gyahtei_satoru）
-                        <ul>
-                            <li>お気に入りをファイル単位でなく、タブごとに別々に保存されるよう修正</li>
-                            <li>合わせてタブのキャッシュ形式・更新タイミングを調整</li>
-                        </ul>
-                    </li>
-                    <li>ドラッグリサイズ時にウインドウが反応しなくなることがあるバグを修正
-                        <ul>
-                            <li>合わせてUIを微調整</li>
-                        </ul>
-                    </li>
+                    <li>フォルダを登録・削除するとクラッシュする重大なバグを修正</li>
+                    <li>ファイルリスト文字サイズが反映されていなかったのを修正</li>
+                    <li>その他軽微なUI調整</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.0.5/Scripta-1.0.5.zip" length="2813492" type="application/octet-stream" sparkle:edSignature="geFpe5HL/Egqbbv9uhJFXQCTpY1hOk7LhR6B5kR5lFfRCyTiO3WV22v1f1gMlqfec+7FqzoJB6I77Wl1jhvbBA=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.0.6/Scripta-1.0.6.zip" length="2825892" type="application/octet-stream" sparkle:edSignature="TGBqsvYI1SgRtKaotvFPPoAkTxz9qQcHy60pLjlvgUfy2+chjQ5nL4FlhpsErUqUZASGdKmecGnAxCfNyiWeBw=="/>
         </item>
     </channel>
 </rss>

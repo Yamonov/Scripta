@@ -3,19 +3,20 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.0.6</title>
-            <pubDate>Thu, 23 Apr 2026 16:48:59 +0900</pubDate>
-            <sparkle:version>1.0.6</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <title>1.1</title>
+            <pubDate>Sat, 25 Apr 2026 15:48:40 +0900</pubDate>
+            <sparkle:version>1.1</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <ul>
-                    <li>フォルダを登録・削除するとクラッシュする重大なバグを修正</li>
-                    <li>ファイルリスト文字サイズが反映されていなかったのを修正</li>
-                    <li>その他軽微なUI調整</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.0.6/Scripta-1.0.6.zip" length="2825892" type="application/octet-stream" sparkle:edSignature="TGBqsvYI1SgRtKaotvFPPoAkTxz9qQcHy60pLjlvgUfy2+chjQ5nL4FlhpsErUqUZASGdKmecGnAxCfNyiWeBw=="/>
+<ul>
+    <li>UIを調整</li>
+    <li>スクリプトログ記録機能を追加</li>
+    <li>スクリプトファイル実行をosascriptからAppleEvents経由にし、高速化</li>
+    <li>細かなバグフィックス</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.1/Scripta-1.1.zip" length="3002859" type="application/octet-stream" sparkle:edSignature="0xeHbkOarypl8KxG/1yJ8YDW6mlHs7cnv4XeiXZZC0HS2xlWejUeuZeAXLkF3mEbVcqc6vg0bHXOorLX55SIBg=="/>
         </item>
     </channel>
 </rss>

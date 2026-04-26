@@ -3,20 +3,24 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.1</title>
-            <pubDate>Sat, 25 Apr 2026 15:48:40 +0900</pubDate>
-            <sparkle:version>1.1</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <title>1.1.5</title>
+            <pubDate>Sun, 26 Apr 2026 13:19:12 +0900</pubDate>
+            <sparkle:version>1.1.5</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <ul>
-    <li>UIを調整</li>
-    <li>スクリプトログ記録機能を追加</li>
-    <li>スクリプトファイル実行をosascriptからAppleEvents経由にし、高速化</li>
-    <li>細かなバグフィックス</li>
+    <li>jsx実行方法をAppleEventに変更し、高速・省力化</li>
+    <li>ログ記録を調整し、より分かりやすく</li>
+    <li>リスト描画方法を変更。環境による行ズレに対処しました
+        <ul>
+            <li>さらに環境設定でベースラインを微調整できるようにしました</li>
+        </ul>
+    </li>
+    <li>細かな動作調整とUIの微調整</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.1/Scripta-1.1.zip" length="3002859" type="application/octet-stream" sparkle:edSignature="0xeHbkOarypl8KxG/1yJ8YDW6mlHs7cnv4XeiXZZC0HS2xlWejUeuZeAXLkF3mEbVcqc6vg0bHXOorLX55SIBg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.1.5/Scripta-1.1.5.zip" length="3006728" type="application/octet-stream" sparkle:edSignature="D6kGQtVc92ujFHHyRv1YE3gB5kwmSyQEWPgXEZB0AkPGsdc5s4uMkLf0F/MAekuOWZaXRNx4tG24J9/D6LadDw=="></enclosure>
         </item>
     </channel>
 </rss>

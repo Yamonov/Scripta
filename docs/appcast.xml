@@ -10,6 +10,7 @@
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <ul>
+    <li>Stable!!</li>
     <li>jsx実行方法をAppleEventに変更し、高速・省力化</li>
     <li>ログ記録を調整し、より分かりやすく</li>
     <li>リスト描画方法を変更。環境による行ズレに対処しました

@@ -3,25 +3,22 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.1.5</title>
-            <pubDate>Sun, 26 Apr 2026 13:19:12 +0900</pubDate>
-            <sparkle:version>1.1.5</sparkle:version>
-            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <title>1.2</title>
+            <pubDate>Mon, 27 Apr 2026 13:43:01 +0900</pubDate>
+            <sparkle:version>1.2</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <ul>
-    <li>Stable!!</li>
-    <li>jsx実行方法をAppleEventに変更し、高速・省力化</li>
-    <li>ログ記録を調整し、より分かりやすく</li>
-    <li>リスト描画方法を変更。環境による行ズレに対処しました
-        <ul>
-            <li>さらに環境設定でベースラインを微調整できるようにしました</li>
-        </ul>
-    </li>
-    <li>細かな動作調整とUIの微調整</li>
+  <li>スクリプトの説明をポップアップ表示できるように。SCRIPTMETA対応スクリプトの説明文を表示します。</li>
+  <li>SCRIPTMETA v1.3に対応
+    <ul>
+      <li>v1.3では、アップデートを目的としないローカル開発スクリプトでも、Local Subset規格によって説明文を埋め込む仕組みを作っています。配布しない自作スクリプトにSCRIPTMETAタグを入れておけば、Scripta!などの対応アプリで操作説明などの短い文章を表示できます。</li>
+    </ul>
+  </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.1.5/Scripta-1.1.5.zip" length="3006728" type="application/octet-stream" sparkle:edSignature="D6kGQtVc92ujFHHyRv1YE3gB5kwmSyQEWPgXEZB0AkPGsdc5s4uMkLf0F/MAekuOWZaXRNx4tG24J9/D6LadDw=="></enclosure>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.2/Scripta-1.2.zip" length="3078070" type="application/octet-stream" sparkle:edSignature="EfRgzcpe2DbOD9FN0O7JuNG9WduRWNHs52t46X6zc3cPW9oAV3WF5dnULSugNWRFMrhDo+t1uH+17HRHninsCg=="></enclosure>
         </item>
     </channel>
 </rss>

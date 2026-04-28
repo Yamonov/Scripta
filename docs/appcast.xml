@@ -3,22 +3,25 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.2</title>
-            <pubDate>Mon, 27 Apr 2026 13:43:01 +0900</pubDate>
-            <sparkle:version>1.2</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <title>1.3</title>
+            <pubDate>Wed, 29 Apr 2026 01:02:32 +0900</pubDate>
+            <sparkle:version>1.3</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <ul>
-  <li>スクリプトの説明をポップアップ表示できるように。SCRIPTMETA対応スクリプトの説明文を表示します。</li>
-  <li>SCRIPTMETA v1.3に対応
-    <ul>
-      <li>v1.3では、アップデートを目的としないローカル開発スクリプトでも、Local Subset規格によって説明文を埋め込む仕組みを作っています。配布しない自作スクリプトにSCRIPTMETAタグを入れておけば、Scripta!などの対応アプリで操作説明などの短い文章を表示できます。</li>
-    </ul>
-  </li>
+<li>リストのショートカット部分をoptionクリックでオンオフできるようにしました</li>
+<li>スクリプトの右クリックでSCRIPTMETAタグを編集する画面を設けました
+<ul>
+<li>ローカル環境用の簡易タグ編集を使えば、リスト上からスクリプトの説明をポップアップで確認できるようになります</li>
+<li>公開用スクリプト向けのフル規格SCRIPTMETAを設定できます。公開サイト掲載用タグジェネレータつきです</li>
+<li>スクリプト自体にタグを（コメントで）書き込むため、世代バックアップシステムも搭載しました。いつでも前のor最初のスクリプトを書き戻せます</li>
+</ul>
+</li>
+<li>設定したお気に入りとショートカットを設定ファイルに書きだして別環境で取り込めるようにしました。フォルダがだいたい同じであれば、ある程度類推して設定します。環境設定＞ショートカットから書き出し＆取り込みができます</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.2/Scripta-1.2.zip" length="3078070" type="application/octet-stream" sparkle:edSignature="EfRgzcpe2DbOD9FN0O7JuNG9WduRWNHs52t46X6zc3cPW9oAV3WF5dnULSugNWRFMrhDo+t1uH+17HRHninsCg=="></enclosure>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.3/Scripta-1.3.zip" length="3640628" type="application/octet-stream" sparkle:edSignature="RfkY3Upm4WaXs+fWqHlY+ahq4Le7sHzduM0SMtxh91J5Eb6YO++Irh3Tgun/6W0AxfZKW9Tx8SF/P2sJw5TEAg=="></enclosure>
         </item>
     </channel>
 </rss>

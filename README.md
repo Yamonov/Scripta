@@ -133,15 +133,20 @@ SCRIPTMETAタグをGUIで編集できるようになりました(v 1.3)
   + Local Subsetで雑に埋め込んだものを、フルセット規格にいつでも昇格できます
 + フルセット規格編集画面では、スクリプト公開サイトに配置するタグを自動生成します。コピペで使用できます
 + スクリプト自体にタグを書き込むので、バックアップも世代ごとにできるようにしました。いつでも元のスクリプトに戻れます
++ GUI編集ロック用に、パスワードを設定できるようにしました（v1.3.1）SCRIPTMETA v1.4の仕様として追加しています
+  + ロックのかかったスクリプトはGUI編集時にパスワードを入力しないと編集できません。もちろんテキストエディタで簡単に編集できますが、敷居は上がります。 
 
 ローカル使用向けタグ編集画面
-<img width="612" height="807" alt="SS_Scripta_28_004068" src="https://github.com/user-attachments/assets/048f047f-d3fe-4378-81c3-ffa76471d0c1" />
+
+<img width="612" height="935" alt="s1" src="https://github.com/user-attachments/assets/4a7d4e67-9614-4bb6-b626-4df53ede9edd" />
 
 バックアップ管理画面。スクリプト毎に編集した世代を保存します。世代を選択して書き戻せます
-<img width="1012" height="807" alt="SS_Scripta_29_004083@2x" src="https://github.com/user-attachments/assets/bb72bb50-9d95-453e-87e0-a4c6a0749e36" />
+
+<img width="1012" height="935" alt="s2" src="https://github.com/user-attachments/assets/389871bc-8a50-4207-8ed8-6598f5428b64" />
 
 フル規格（公開用）SCRIPTMETAタグ編集画面。サイトにコピペで貼り付けられるタグジェネレータを備えます
-<img width="1112" height="960" alt="SS_Scripta_29_004085@2x" src="https://github.com/user-attachments/assets/42c5fff4-117c-4af2-9985-6ec5e4b2974f" />
+
+<img width="1112" height="1024" alt="s3" src="https://github.com/user-attachments/assets/25c679ac-6004-4dea-a657-7f9552de1240" />
 
 
 ### SCRIPTMETA記述方法

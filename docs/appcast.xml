@@ -3,22 +3,13 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.3.1</title>
-            <pubDate>Wed, 29 Apr 2026 14:24:29 +0900</pubDate>
-            <sparkle:version>43</sparkle:version>
-            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <title>1.3.2</title>
+            <pubDate>Wed, 29 Apr 2026 19:01:39 +0900</pubDate>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-<ul>
-<li>SCRIPTMETA v1.4に対応
-<ul>
-<li>v1.4では作者名と簡易ロックをかけられるようにしています。それに合わせ、SCRIPTMETA編集画面を変更しました。パスワードロックのあるスクリプトを開く際にはパスワードを求めます（テキストエディタで編集できなくなる訳ではありません）。</li>
-</ul>
-</li>
-<li>細かなUI調整</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.3.1/Scripta-1.3.1.zip" length="3682348" type="application/octet-stream" sparkle:edSignature="CBr54r8mXw7zp0LHFZ5/yD9qRD5API5iZxrUL5LTG/9Tl/q0RIJjpMNIKVEPtH92x2s75dNGzDn7oQ5b94f7Dw=="></enclosure>
+            <description><![CDATA[<ul><li>バックアッププレビューでレインボーカーソルになるのを修正</li><li>細かなUIの調整</li></ul>]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.3.2/Scripta-1.3.2.zip" length="3704725" type="application/octet-stream" sparkle:edSignature="wLQngqfZ0K5nKCdN+MM0Qvpw4Mk4sKx0mC69zshD87NF90kmtXhNcm+XT3yRFH3/4c0LhdElHwQ9j8foCJYkCA=="></enclosure>
         </item>
     </channel>
 </rss>

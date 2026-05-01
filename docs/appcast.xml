@@ -3,16 +3,21 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.3.3</title>
-            <pubDate>Thu, 30 Apr 2026 21:58:00 +0900</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <title>1.4</title>
+            <pubDate>Sat, 02 May 2026 00:43:16 +0900</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<ul>
-<li>UIの細かなバグを修正。非ピン止め状態でのウインドウ動作を修正しました。</li>
-<li>UIの微調整</li>
-</ul>]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.3.3/Scripta-1.3.3.zip" length="3715374" type="application/octet-stream" sparkle:edSignature="kwZrJaUkRyv+y7BH09BnXVXVEr1LRUaOTlNcVID+DrLEqVMon5V39+z2zmIuuCalaLeWpdJF/TocDGvtZxwABw=="></enclosure>
+            <description><![CDATA[
+<ul>
+  <li>ウインドウ制御のバグを修正し、二重のウインドウが出ないようにしました。</li>
+  <li>スクリプトを多重実行できないように修正。実行中はスクリプトリストに触れなくしています。</li>
+  <li>対応アプリケーションが複数バージョン起動中でも問題無く実行できるようにしました。またタブメニュー内に現在対象になっているアプリケーション名を表示します。</li>
+  <li>動作の高速化と、細かなバグを潰し安定化を進めました。</li>
+  <li>UIをブラッシュアップ。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.4/Scripta-1.4.zip" length="3920425" type="application/octet-stream" sparkle:edSignature="680xoOe42U3eDU9uw+msLJW6R9fWIOhMyUrAc0TkuxEWZoC8rHCm56sSPXcAaslDkr4/wZ5BIByp0SEB0Z9KDw=="></enclosure>
         </item>
     </channel>
 </rss>

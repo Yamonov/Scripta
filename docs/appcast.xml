@@ -3,21 +3,18 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.4</title>
-            <pubDate>Sat, 02 May 2026 00:43:16 +0900</pubDate>
-            <sparkle:version>62</sparkle:version>
-            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <title>1.4.1</title>
+            <pubDate>Sat, 02 May 2026 22:42:48 +0900</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-<ul>
-  <li>ウインドウ制御のバグを修正し、二重のウインドウが出ないようにしました。</li>
-  <li>スクリプトを多重実行できないように修正。実行中はスクリプトリストに触れなくしています。</li>
-  <li>対応アプリケーションが複数バージョン起動中でも問題無く実行できるようにしました。またタブメニュー内に現在対象になっているアプリケーション名を表示します。</li>
-  <li>動作の高速化と、細かなバグを潰し安定化を進めました。</li>
-  <li>UIをブラッシュアップ。</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.4/Scripta-1.4.zip" length="3920425" type="application/octet-stream" sparkle:edSignature="680xoOe42U3eDU9uw+msLJW6R9fWIOhMyUrAc0TkuxEWZoC8rHCm56sSPXcAaslDkr4/wZ5BIByp0SEB0Z9KDw=="></enclosure>
+            <description><![CDATA[<ul>
+<li>お気に入り＋ショートカットグループを下側に置くボタンを追加。特に画面下にタブを置いているとき、マウス移動量を少なくできます。</li>
+<li>各種の細かなバグフィックスとスピンコントロール</li>
+<li>UIの微調整</li>
+<li>ニューアイコン！</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.4.1/Scripta-1.4.1.zip" length="5929602" type="application/octet-stream" sparkle:edSignature="a8R5GGl5HjvDme2yxCuprW1lxdnls7Tsn62THOmYlaTCccMtf8VcbU5HAttMNdcI56LzqqVivEdOtYPZHZkZCQ=="></enclosure>
         </item>
     </channel>
 </rss>

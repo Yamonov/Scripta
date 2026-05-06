@@ -3,18 +3,19 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.4.1</title>
-            <pubDate>Sat, 02 May 2026 22:42:48 +0900</pubDate>
-            <sparkle:version>63</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <title>1.5</title>
+            <pubDate>Wed, 06 May 2026 22:50:17 +0900</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<ul>
-<li>お気に入り＋ショートカットグループを下側に置くボタンを追加。特に画面下にタブを置いているとき、マウス移動量を少なくできます。</li>
-<li>各種の細かなバグフィックスとスピンコントロール</li>
-<li>UIの微調整</li>
-<li>ニューアイコン！</li>
-</ul>]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.4.1/Scripta-1.4.1.zip" length="5929602" type="application/octet-stream" sparkle:edSignature="a8R5GGl5HjvDme2yxCuprW1lxdnls7Tsn62THOmYlaTCccMtf8VcbU5HAttMNdcI56LzqqVivEdOtYPZHZkZCQ=="></enclosure>
+            <description><![CDATA[
+<h2>🎉本当に静かに動作するようにしました！🎉</h2>
+<ul>
+  <li>バックグラウンド時のCPU使用を極小化しました</li>
+  <li>対象アプリ使用時に、パネル以外のマウスムーブを拾ってしまっていたのを修正</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.5/Scripta-1.5.zip" length="5966184" type="application/octet-stream" sparkle:edSignature="MPK4Esn9aELEz9PBsPHLc5q1er+Hl43JQtnccFsaGb6h9tdfor/rKXjC5O/hZwDtUhrQ1guAgPaoYz+zQcS4Dw=="></enclosure>
         </item>
     </channel>
 </rss>

@@ -33,6 +33,12 @@ Illustrator、Photoshop、そしてInDesign用のスクリプトランチャー�
   + タブの大きさ
   + 配置するモニタ
 + アプリ毎に複数のスクリプトフォルダを登録でき、タブで切り替えられます
++ 対応スクリプト
+  + Adobe JavaScript / ExtendScript：`.js`、`.jsx`、`.jsxinc`、`.jsxbin`
+  + UXP Script：`.idjs`、`.psjs`
+  + AppleScript：`.scpt`、`.applescript`
+  + JXA（JavaScript for Automation）：`.jxa`、または先頭行に `#!/usr/bin/osascript -l JavaScript` がある `.js` / `.applescript`
+  + JXAとして実行する `.js` / `.applescript` は、先頭行のshebang `#!/usr/bin/osascript -l JavaScript` が必須です。shebangがない `.js` はAdobe JavaScript、`.applescript` はAppleScriptとして扱います
 + スクリプトにキーボードショートカットを設定できます
   + キーボードショートカットはアプリ毎、またタブとして切り替えられる登録フォルダごとに設定できます
   + ファイルリストを右クリックで、ショートカットキー登録画面を表示します（v1.5.1）。環境設定のショートカットキーリストは一括変更にお使いください。
@@ -54,8 +60,8 @@ Illustrator、Photoshop、そしてInDesign用のスクリプトランチャー�
 
 ## 機能詳細
 
-+ スクリプトファイルは、高速なAppleEventでアプリケーションに「打ちっぱなし」で引き渡します。osascript経由の実行もフォールバックとして用意しています
-  + ログ保存モードではタイムアウト付きでアプリごとのCueで実行しますが、ログ保存オフモードと体感で変化はありません
++ Adobe JavaScript / UXP Scriptは、AppleEventで対象アプリに渡して実行します。AppleScriptとJXAはosascript経由で実行します
+  + ログ保存モードでは、標準出力やエラー、対象アプリから返ったログを記録します
 + サーチ欄にフォーカスが当たっていないとき、Scripta!で設定したショートカットキー以外のキーは全て前面アプリ側で問題無く受け取れます
 + 指定したアプリが前面にないときは、何もしません。起動項目に入れて常時起動しても気にならないような動作を目指しています
 
@@ -64,7 +70,7 @@ Illustrator、Photoshop、そしてInDesign用のスクリプトランチャー�
 ### メインウインドウ
 
 + リスト中のスクリプトを右クリックで、Finderで開いたり編集したり、キーボードショートカットを登録する設定画面に移動できます
-  + SCRIPTMETAタグをGUIで編集できます(v1.3)
+  + SCRIPTMETAタグをGUIで編集できます
 + ⌘+ドラッグで位置移動できます
 + ウインドウサイズを変更できます
 + ショートカットキーをoption+クリックで一時的にオンオフできます(v1.3)
@@ -80,8 +86,8 @@ Illustrator、Photoshop、そしてInDesign用のスクリプトランチャー�
     
 <img width="2204" height="2000" alt="8" src="https://github.com/user-attachments/assets/3d0a25a6-6b7e-466b-8186-49dbc943dc2b" />
 
-SCRIPTMETA バージョン1.3に対応し、更新確認をしないローカル開発のスクリプトに、説明文やバージョン情報を埋め込み、アプリ上で表示できるようになりました。
-SCRIPTMETAタグをGUIで編集できるようになりました(v 1.3)
+SCRIPTMETA v1.4に対応し、更新確認をしないローカル開発のスクリプトに、説明文やバージョン情報を埋め込み、アプリ上で表示できるようになりました。
+SCRIPTMETAタグをGUIで編集できます。
 
 記述方法は本ページ最下部へ
 
@@ -91,7 +97,7 @@ SCRIPTMETAタグをGUIで編集できるようになりました(v 1.3)
 
 + パネルを表示するアプリを選択できます。必ずひとつは選択されていなければなりません
 + 起動項目に設定できます
-+ ファイルリスト右クリックの編集メニューから、ExtendScript系とAppleScript系それぞれの追加編集アプリを設定できます
++ ファイルリスト右クリックの編集メニューから、JavaScript系（ExtendScript/UXP/JXA）とAppleScript系それぞれの追加編集アプリを設定できます
 + Sparkleを搭載し、自動アップデートや手動での確認・自動ダウンロードとインストールが可能です
 + パネルが見えなくなったときなどのために、パネル位置や全設定のリセットボタンを用意しています
   
@@ -127,26 +133,27 @@ SCRIPTMETAタグをGUIで編集できるようになりました(v 1.3)
 
 + SCRIPTMETAタグ対応のスクリプトが登録フォルダ内にあれば、スクリプトのアップデートを調べられます
 + アップデートのあるスクリプトは、青い文字や↑ボタンで、配布サイトを開きます（自動アップデートは仕様上行いません）
-+ SCRIPTMETAタグの更新は、登録フォルダスキャンで行ってください。Local SubsetのDiscription等を検出・更新します
-+ 
++ SCRIPTMETAタグの更新は、登録フォルダスキャンで行ってください。Local SubsetのDescription等を検出・更新します
 <img width="862" height="1193" alt="6" src="https://github.com/user-attachments/assets/02cc1fe3-d193-40fa-ac22-4c946ef45159" />
 
 #### スクリプト実行ログ
 
 + ログ記録をオンにすると、スクリプトの出力するログを記録し、閲覧できます
-+ AppleEvents経由でなく、フォールバックでosascript経由になった場合は、行に<<fallback>>が付きます
++ AppleScriptとJXAはosascript経由、Adobe JavaScript / UXP ScriptはAppleEvent経由で実行し、記録できる出力をログに残します
 + ログファイルは100MBを上限とし、ここで表示するのは512KBまでです（軽量化のため）
   
 <img width="862" height="1193" alt="7" src="https://github.com/user-attachments/assets/eb1459f8-d318-4f1f-b4ba-a7f87e9ac85b" />
 
-#### 右クリックメニュー/SCRIPTMETA編集ウインドウ(v1.3)
+#### 右クリックメニュー/SCRIPTMETA編集ウインドウ(v1.4)
 
 + SCRIPTMETAタグを、簡易なローカル使用向け（Local Subset）と、公開用のフルセット規格（Update Profile）両方をGUIで編集可能にしました
++ GUI編集は `.js`、`.jsx`、`.jsxinc`、`.applescript`、`.idjs`、`.jxa`、`.psjs` に対応しています
 + GUIでタグをスクリプトに埋め込めます。スクリプトの説明をスクリプト自体にタグで埋め込むことで、いつでもリスト内から説明を見られます
   + ローカル環境でのスクリプト配布や、開発時のメモに活用できます
   + Local Subsetで雑に埋め込んだものを、フルセット規格にいつでも昇格できます
 + フルセット規格編集画面では、スクリプト公開サイトに配置するタグを自動生成します。コピペで使用できます
 + スクリプト自体にタグを書き込むので、バックアップも世代ごとにできるようにしました。いつでも元のスクリプトに戻れます
++ 書き込み権限のないファイルでは、SCRIPTMETA編集メニューは「SCRIPTMETA編集（編集権限がありません）」として無効表示されます
 + GUI編集ロック用に、パスワードを設定できるようにしました（v1.3.1）SCRIPTMETA v1.4の仕様として追加しています
   + ロックのかかったスクリプトはGUI編集時にパスワードを入力しないと編集できません。もちろんテキストエディタで簡単に編集できますが、敷居は上がります。 
 
@@ -165,14 +172,16 @@ SCRIPTMETAタグをGUIで編集できるようになりました(v 1.3)
 
 ### SCRIPTMETA記述方法
 
-SCRIPTMETA v1.3では、仕様を更新用フル規格のUpdate Profileと、ローカル利用向けにLocal Subsetに分けています。
+SCRIPTMETA v1.4では、仕様を更新用フル規格のUpdate Profileと、ローカル利用向けにLocal Subsetに分けています。
 Local Subset規格では、以下のメタ情報をスクリプト内に埋め込み、対応アプリで表示することができます。
 
 + スクリプトの説明
 + バージョン
 + 対応アプリ
 
-ExtendScriptなら、スクリプト冒頭のブロックコメント内に以下のように書きます。
+JavaScript系（ExtendScript/UXP/JXA）は `/* */`、AppleScriptは `(* *)` のブロックコメント内に書きます。
+JXAとして実行する `.js` / `.applescript` では、shebang行の前には何も書かないでください。
+以下はJavaScript系の例です。
 
 ```javascript
 
@@ -205,14 +214,15 @@ SCRIPTMETAブロックが整っていれば、ブロックコメント内に何�
 | Script-ID | 必須 | 全世界で必ず一意になるIDを考えてください。<br>逆ドメイン記法で、例えば `com.yamadatarou.InDesignScript2202.jsx` としていくのがいいでしょう |
 | Target-App | 任意 | クライアントアプリで表示されます。あったほうがやさしい |
 | Version | 任意 | アプリで表示されます。<br>Update Profile規格では必須ですが、Local Subset規格ではメモ書き程度の意味しか持ちません |
+| Release-Date | 任意 | リリース日を入れられます |
 | Name | 任意 | 同上。ファイル名より分かりやすくする、日本語で名前をつけるなど |
 | Author | ※ 任意 | 作者名を入れてください。パスワード設定時は必須項目になります |
+| Min-Target-Version | 任意 | Update Profile規格で、更新対象にする最小バージョンを指定できます |
+| Meta-URL | Update Profileでは必須 | 更新確認に使うSCRIPTMETAのURLです |
 | Edit-Password-SHA256 | 任意 | salt+UTF-8パスワードのSHA256コードです。GUIにロックがかかり、編集にパスワードが必要になります<br>スクリプト自体の編集ができなくなるわけではありません。ただのテキストですから…<br>編集不可にしてSCRIPTMETA対応させたい場合は、難読化（jsxbin）したコードをSCRIPTMETA付きのjsxにeval()で埋め込んでください。 |
 | Description | 推奨 | Description-BEGIN行とDescription-END行で囲んだ範囲が説明文として表示されます<br>これがLocal Subset規格の目的でもあります。|
 
 
 詳細はこちら
 [SCRIPTMETA仕様書＆アプリ作成用AI指示書](https://gist.github.com/Yamonov/31698801e781a6c6fa606634d34f771e)
-
-
 

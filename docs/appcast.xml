@@ -3,19 +3,23 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.5.1</title>
-            <pubDate>Fri, 08 May 2026 12:48:42 +0900</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <title>1.5.2</title>
+            <pubDate>Sat, 09 May 2026 20:40:01 +0900</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
+<h2>Scripta 1.5.2</h2>
 <ul>
-  <li>ショートカットキー登録を、右クリックメニューでタブから簡単に行えます。環境設定＞ショートカットキーは一覧編集としてお使いください。</li>
-  <li>常駐時のメモリ使用量をさらに削減</li>
-  <li>細かなUI周りの調整</li>
+  <li>ショートカットキーとお気に入り登録を、タブごとに完全に独立・分離させました。同じフォルダを登録しても、別々のショートカットキーとお気に入りにできます。</li>
+  <li>登録記録方式を新しくしたため、初回起動時に登録記録の更新処理を行います。</li>
+  <li>psjs、idjsの対応を修正しました。</li>
+  <li>AppleScriptとjxa対応を修正しました。</li>
+  <li>❗拡張子.jsと.applescriptのJavaScript for Automationスクリプトは、shebangとして「#!/usr/bin/osascript -l JavaScript」を先頭に置いてください。この有無で実行方法を分けています。対応拡張子はGitHubのREADME.mdにあります。</li>
+  <li>SCRIPTMETA編集を、難読化したjsx以外対応可能なテキストスクリプト全てに拡張しました。.applescriptにもタグを書けます。</li>
 </ul>
-]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.5.1/Scripta-1.5.1.zip" length="6048403" type="application/octet-stream" sparkle:edSignature="3nx9FI/uEHEhygoFxn2cs0moYaRnW7MTrAwLgGcuzKE2a+MrRATapWuj9SJSsUZGzLrvY2NwpEbkROIM6N6VDQ=="/>
+            ]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.5.2/Scripta-1.5.2.zip" length="6129960" type="application/octet-stream" sparkle:edSignature="I86eQi4EumPPIZyr+F/aAFq8dlu8gDGFxyU7DjNJLjO7Y+1y0iNP36KJrbXwbh51UW/hljZbrDE07zbBsMMRBg=="/>
         </item>
     </channel>
 </rss>

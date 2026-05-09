@@ -19,7 +19,8 @@ Illustrator、Photoshop、そしてInDesign用のスクリプトランチャー�
 
 無料で使用できますが、気に入ったらこちらからご寄付お願いします（クリックでジャンプ）
 
-[<img height="300" alt="qr_eVqcN75Gm8vX6nHfDj77O00" src="https://github.com/user-attachments/assets/a6af0494-29e4-44b1-b329-1369f3b3b134" />](https://donate.stripe.com/eVqcN75Gm8vX6nHfDj77O00)
+[<img width="250" height="28" alt="image" src="https://github.com/user-attachments/assets/19fb452d-4bad-4768-879e-612e892b8a10" />
+](https://donate.stripe.com/eVqcN75Gm8vX6nHfDj77O00)
 
 ## 機能
 

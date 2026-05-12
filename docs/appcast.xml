@@ -3,23 +3,23 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.5.2</title>
-            <pubDate>Sat, 09 May 2026 20:40:01 +0900</pubDate>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+            <title>1.6</title>
+            <pubDate>Tue, 12 May 2026 22:02:29 +0900</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Scripta 1.5.2</h2>
+<h2>Version 1.6</h2>
 <ul>
-  <li>ショートカットキーとお気に入り登録を、タブごとに完全に独立・分離させました。同じフォルダを登録しても、別々のショートカットキーとお気に入りにできます。</li>
-  <li>登録記録方式を新しくしたため、初回起動時に登録記録の更新処理を行います。</li>
-  <li>psjs、idjsの対応を修正しました。</li>
-  <li>AppleScriptとjxa対応を修正しました。</li>
-  <li>❗拡張子.jsと.applescriptのJavaScript for Automationスクリプトは、shebangとして「#!/usr/bin/osascript -l JavaScript」を先頭に置いてください。この有無で実行方法を分けています。対応拡張子はGitHubのREADME.mdにあります。</li>
-  <li>SCRIPTMETA編集を、難読化したjsx以外対応可能なテキストスクリプト全てに拡張しました。.applescriptにもタグを書けます。</li>
+  <li>メニューバーアプリになりました。Dockやアプリケーションスイッチャーに表示されなくなります。
+    <ul>
+      <li>Illustrator/InDesign/Photoshopが起動していなくても、メニューバーのScripta!アイコンから環境設定、アプリアップデート、終了にアクセスできます。</li>
+    </ul>
+  </li>
+  <li>複数のディスプレイを使用しているとき、スリープ復帰後に違うディスプレイに表示されてしまう問題を修正しました。</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.5.2/Scripta-1.5.2.zip" length="6129960" type="application/octet-stream" sparkle:edSignature="I86eQi4EumPPIZyr+F/aAFq8dlu8gDGFxyU7DjNJLjO7Y+1y0iNP36KJrbXwbh51UW/hljZbrDE07zbBsMMRBg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.6/Scripta-1.6.zip" length="6150107" type="application/octet-stream" sparkle:edSignature="8ALqbQ8qqEKfM+qH+MS9MLN1mXQLf2ew9DGNbpjq/Vh+1JUp3ims4LZtmVLfsf3YsnW79FLJrC9V6PCfX+k/Bw=="/>
         </item>
     </channel>
 </rss>

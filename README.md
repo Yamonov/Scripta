@@ -5,6 +5,8 @@
 # Scripta!
 Edge-tab script launcher for Illustrator, Photoshop, and InDesign on macOS
 
+[New help page](https://iwashi.org/app/scripta/ja/index.html)
+
 <img width="396" height="640" alt="SS_CleanShot_27_004022" src="https://github.com/user-attachments/assets/11bacaa8-14ff-4c53-ad54-cdce35a3939f" />
 
 Illustrator、Photoshop、そしてInDesign用のスクリプトランチャーです。

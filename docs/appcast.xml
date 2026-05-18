@@ -3,23 +3,42 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.6</title>
-            <pubDate>Tue, 12 May 2026 22:02:29 +0900</pubDate>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <title>1.7</title>
+            <pubDate>Mon, 18 May 2026 15:09:04 +0900</pubDate>
+            <sparkle:version>88</sparkle:version>
+            <sparkle:shortVersionString>1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.6</h2>
+<h2>Version 1.7</h2>
 <ul>
-  <li>メニューバーアプリになりました。Dockやアプリケーションスイッチャーに表示されなくなります。
+  <li>キーボードショートカットをアップデート
     <ul>
-      <li>Illustrator/InDesign/Photoshopが起動していなくても、メニューバーのScripta!アイコンから環境設定、アプリアップデート、終了にアクセスできます。</li>
+      <li>対応キー制限を緩めました。記号類も設定できるようになりました。</li>
+      <li>ショートカット二度押しに対応。設定されたキーにはx2のマークがつきます。</li>
     </ul>
   </li>
-  <li>複数のディスプレイを使用しているとき、スリープ復帰後に違うディスプレイに表示されてしまう問題を修正しました。</li>
+  <li>タブをアップデート
+    <ul>
+      <li>タブに好きな名前を付けられるようになりました。顔文字等を自由に設定できます。</li>
+      <li>タブの並び替えに対応しました。スクリプトフォルダ設定でドラッグ＆ドロップで並び替えられます。</li>
+    </ul>
+  </li>
+  <li>拡張ショートカットを追加
+    <ul>
+      <li>control+TABでのドキュメント切り替えや、Command+control+Fでのアプリケーションフレーム切り替えといったOS基準のショートカットを割り当てます。</li>
+      <li>Photoshopレイヤーマスクやブラシサイズ、不透明度と流量、スポイトツールオプション、クローンツールオプションなど大量に追加しました。</li>
+      <li>テンキー無しのユーザー向けの拡大縮小ショートカット設定や、InDesignでのテンキー拡大縮小をサポート。</li>
+      <li>これらのキーは全てのショートカットの上位扱いとなります。初期設定では全てオフです。</li>
+    </ul>
+  </li>
+  <li>ヘルプページを追加
+    <ul>
+      <li>メニューのScripta!ヘルプからアクセスできます。</li>
+    </ul>
+  </li>
 </ul>
-            ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.6/Scripta-1.6.zip" length="6150107" type="application/octet-stream" sparkle:edSignature="8ALqbQ8qqEKfM+qH+MS9MLN1mXQLf2ew9DGNbpjq/Vh+1JUp3ims4LZtmVLfsf3YsnW79FLJrC9V6PCfX+k/Bw=="/>
+]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7/Scripta-1.7.zip" length="17087147" type="application/octet-stream" sparkle:edSignature="h9WXuVf3KwJ/q9EoNlo0p31Fx1NBFawC7qXH2GVvQMUg7JlBHWCKN0l5BCu6OLamu+KXUr0Mm4/78dVbA1SlDQ=="/>
         </item>
     </channel>
 </rss>

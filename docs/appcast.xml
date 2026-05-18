@@ -3,13 +3,17 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.7</title>
-            <pubDate>Mon, 18 May 2026 15:09:04 +0900</pubDate>
-            <sparkle:version>88</sparkle:version>
-            <sparkle:shortVersionString>1.7</sparkle:shortVersionString>
+            <title>1.7.1</title>
+            <pubDate>Mon, 18 May 2026 21:37:55 +0900</pubDate>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.7</h2>
+<h2>Version 1.7.1</h2>
+<ul>
+  <li>二度押しタイミングのカスタマイズを追加。同じスクリプトを連続実行しやすくなります。</li>
+</ul>
+<h2>Version 1.7のアップデート内容</h2>
 <ul>
   <li>キーボードショートカットをアップデート
     <ul>
@@ -38,7 +42,7 @@
   </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7/Scripta-1.7.zip" length="17087147" type="application/octet-stream" sparkle:edSignature="h9WXuVf3KwJ/q9EoNlo0p31Fx1NBFawC7qXH2GVvQMUg7JlBHWCKN0l5BCu6OLamu+KXUr0Mm4/78dVbA1SlDQ=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.1/Scripta-1.7.1.zip" length="17119617" type="application/octet-stream" sparkle:edSignature="tcBXXjQFAlkWSwd/AMlhatHvqLoaxGrgVXaUzGhyoi/mTHwg7EIHTI2cN0uGEtGhTOE0w22Y3CZ7ytNWNbkaAQ=="/>
         </item>
     </channel>
 </rss>

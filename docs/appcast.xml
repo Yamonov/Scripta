@@ -3,46 +3,35 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.7.1</title>
-            <pubDate>Mon, 18 May 2026 21:37:55 +0900</pubDate>
-            <sparkle:version>89</sparkle:version>
-            <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
+            <title>1.7.3</title>
+            <pubDate>Fri, 22 May 2026 14:10:04 +0900</pubDate>
+            <sparkle:version>91</sparkle:version>
+            <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.7.1</h2>
+<h2>Version 1.7.3</h2>
+<h3>AppleScriptに対応</h3>
 <ul>
-  <li>二度押しタイミングのカスタマイズを追加。同じスクリプトを連続実行しやすくなります。</li>
+  <li>SCRIPTMETAタグのあるscriptを、Script-IDを指定してScripta!から実行できます。.scpt、.applescript等では通常通り、jsx系は直前にScripta!が表示された最前面アプリをPhotoshop、Illustrator、InDesignターゲットを指定して実行します。
+    <ul>
+      <li>Keyboard Maestro等のユーティリティーと連携しやすくなります。</li>
+    </ul>
+  </li>
+  <li>リストタブのアピアランスや表示位置をAppleScriptで制御できるようにしています。</li>
 </ul>
-<h2>Version 1.7のアップデート内容</h2>
+<h3>その他</h3>
 <ul>
-  <li>キーボードショートカットをアップデート
+  <li>拡張ショートカットに、コピースタンプ/修復ブラシツール周りのショートカットを追加
     <ul>
-      <li>対応キー制限を緩めました。記号類も設定できるようになりました。</li>
-      <li>ショートカット二度押しに対応。設定されたキーにはx2のマークがつきます。</li>
+      <li>コピーソース回転・拡縮ショートカットキーを追加しました。レイヤー操作とかぶるキー（shift option &lt;&gt; []）と違い、確実に、また速度を自由に変えてコピーソースの拡大縮小ができるようになります。※テンキー用です</li>
+      <li>修復ブラシの誤差拡散法の値をキーで上下できるようにしました。</li>
+      <li>コピースタンプ/修復ブラシの「調整あり」のオンオフキーを追加しました。</li>
     </ul>
   </li>
-  <li>タブをアップデート
-    <ul>
-      <li>タブに好きな名前を付けられるようになりました。顔文字等を自由に設定できます。</li>
-      <li>タブの並び替えに対応しました。スクリプトフォルダ設定でドラッグ＆ドロップで並び替えられます。</li>
-    </ul>
-  </li>
-  <li>拡張ショートカットを追加
-    <ul>
-      <li>control+TABでのドキュメント切り替えや、Command+control+Fでのアプリケーションフレーム切り替えといったOS基準のショートカットを割り当てます。</li>
-      <li>Photoshopレイヤーマスクやブラシサイズ、不透明度と流量、スポイトツールオプション、クローンツールオプションなど大量に追加しました。</li>
-      <li>テンキー無しのユーザー向けの拡大縮小ショートカット設定や、InDesignでのテンキー拡大縮小をサポート。</li>
-      <li>これらのキーは全てのショートカットの上位扱いとなります。初期設定では全てオフです。</li>
-    </ul>
-  </li>
-  <li>ヘルプページを追加
-    <ul>
-      <li>メニューのScripta!ヘルプからアクセスできます。</li>
-    </ul>
-  </li>
+  <li>リストタブの大きさを調整し、すっきりさせました。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.1/Scripta-1.7.1.zip" length="17119617" type="application/octet-stream" sparkle:edSignature="tcBXXjQFAlkWSwd/AMlhatHvqLoaxGrgVXaUzGhyoi/mTHwg7EIHTI2cN0uGEtGhTOE0w22Y3CZ7ytNWNbkaAQ=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.3/Scripta-1.7.3.zip" length="23704650" type="application/octet-stream" sparkle:edSignature="wQgwLLC1GyamOGf4Azs7YsYWukZ7+rm7hkJmifdetT+Cmnew7+4SHK8dT/VYxm9rOB+JlF6r4UKciT2gw4A2Bw=="/>
         </item>
     </channel>
 </rss>

@@ -3,12 +3,17 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.7.3</title>
-            <pubDate>Fri, 22 May 2026 14:10:04 +0900</pubDate>
-            <sparkle:version>91</sparkle:version>
-            <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
+            <title>1.7.4</title>
+            <pubDate>Fri, 22 May 2026 23:34:41 +0900</pubDate>
+            <sparkle:version>92</sparkle:version>
+            <sparkle:shortVersionString>1.7.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
+<h2>Version 1.7.4</h2>
+<ul>
+  <li>ダークUI使用時に、ピン止めモードでの根元ボタンが透過してしまっていたのを修正</li>
+  <li>ショートカット環境設定のUI調整。登録タブをここでも並べ替えられるようにしました。</li>
+</ul>
 <h2>Version 1.7.3</h2>
 <h3>AppleScriptに対応</h3>
 <ul>
@@ -31,7 +36,7 @@
   <li>リストタブの大きさを調整し、すっきりさせました。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.3/Scripta-1.7.3.zip" length="23704650" type="application/octet-stream" sparkle:edSignature="wQgwLLC1GyamOGf4Azs7YsYWukZ7+rm7hkJmifdetT+Cmnew7+4SHK8dT/VYxm9rOB+JlF6r4UKciT2gw4A2Bw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.4/Scripta-1.7.4.zip" length="23734815" type="application/octet-stream" sparkle:edSignature="3BcGigla0VnRIJdDuxAhpJrVmQvFAFpbYKP524Nuy2yvtF9kH+XOzw2r1FkjLJhUgG08bW+Kk1VF1yJRRFhBBw=="/>
         </item>
     </channel>
 </rss>

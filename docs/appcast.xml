@@ -3,40 +3,36 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.7.4</title>
-            <pubDate>Fri, 22 May 2026 23:34:41 +0900</pubDate>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>1.7.4</sparkle:shortVersionString>
+            <title>1.7.5</title>
+            <pubDate>Sun, 24 May 2026 17:39:12 +0900</pubDate>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>1.7.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.7.4</h2>
+<h2>Version 1.7.5</h2>
 <ul>
-  <li>ダークUI使用時に、ピン止めモードでの根元ボタンが透過してしまっていたのを修正</li>
-  <li>ショートカット環境設定のUI調整。登録タブをここでも並べ替えられるようにしました。</li>
-</ul>
-<h2>Version 1.7.3</h2>
-<h3>AppleScriptに対応</h3>
-<ul>
-  <li>SCRIPTMETAタグのあるscriptを、Script-IDを指定してScripta!から実行できます。.scpt、.applescript等では通常通り、jsx系は直前にScripta!が表示された最前面アプリをPhotoshop、Illustrator、InDesignターゲットを指定して実行します。
+  <li>Photoshop拡張ショートカットの調整
     <ul>
-      <li>Keyboard Maestro等のユーティリティーと連携しやすくなります。</li>
+      <li>添付スクリプトを修正し、コピーソースを共有するツールで誤差拡散法をリセットしないようにしました。</li>
+      <li>コピーソースの拡大縮小と回転ショートカットを調整し、入力欄にフォーカスが残らないようにしました。</li>
     </ul>
   </li>
-  <li>リストタブのアピアランスや表示位置をAppleScriptで制御できるようにしています。</li>
-</ul>
-<h3>その他</h3>
-<ul>
-  <li>拡張ショートカットに、コピースタンプ/修復ブラシツール周りのショートカットを追加
+  <li>UI機能追加と調整
     <ul>
-      <li>コピーソース回転・拡縮ショートカットキーを追加しました。レイヤー操作とかぶるキー（shift option &lt;&gt; []）と違い、確実に、また速度を自由に変えてコピーソースの拡大縮小ができるようになります。※テンキー用です</li>
-      <li>修復ブラシの誤差拡散法の値をキーで上下できるようにしました。</li>
-      <li>コピースタンプ/修復ブラシの「調整あり」のオンオフキーを追加しました。</li>
+      <li>タブの入れ替えとリネームを、スクリプトリストウインドウ内でできるようになりました。タブをドラッグで入れ替え、ダブルクリックでリネームできます。</li>
+      <li>リストウインドウの検索欄確定に、TABに加えてcommand+enterを追加。</li>
+      <li>SCRIPTMETA環境設定のUIを調整</li>
     </ul>
   </li>
-  <li>リストタブの大きさを調整し、すっきりさせました。</li>
+  <li>バグ修正
+    <ul>
+      <li>表示中のタブ以外のショートカットキーを拾ってしまう操作経路があったのを修正</li>
+      <li>AppleScriptで値を正しく取得できないプロパティがあったのを修正</li>
+    </ul>
+  </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.4/Scripta-1.7.4.zip" length="23734815" type="application/octet-stream" sparkle:edSignature="3BcGigla0VnRIJdDuxAhpJrVmQvFAFpbYKP524Nuy2yvtF9kH+XOzw2r1FkjLJhUgG08bW+Kk1VF1yJRRFhBBw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.5/Scripta-1.7.5.zip" length="23829523" type="application/octet-stream" sparkle:edSignature="gaOjRPUg5ZcPXna7yoUt1foa48tExTnu4amkQGjxKGyMMLclW9IlrhqeuG9OWAt7k4GNYNW4zFgU849x9SnOCg=="/>
         </item>
     </channel>
 </rss>

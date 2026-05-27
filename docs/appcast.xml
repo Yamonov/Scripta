@@ -3,36 +3,22 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.7.5</title>
-            <pubDate>Sun, 24 May 2026 17:39:12 +0900</pubDate>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>1.7.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <title>1.7.7</title>
+            <pubDate>Wed, 27 May 2026 20:49:52 +0900</pubDate>
             <description><![CDATA[
-<h2>Version 1.7.5</h2>
+<h1>Version 1.7.7</h1>
 <ul>
-  <li>Photoshop拡張ショートカットの調整
-    <ul>
-      <li>添付スクリプトを修正し、コピーソースを共有するツールで誤差拡散法をリセットしないようにしました。</li>
-      <li>コピーソースの拡大縮小と回転ショートカットを調整し、入力欄にフォーカスが残らないようにしました。</li>
-    </ul>
-  </li>
-  <li>UI機能追加と調整
-    <ul>
-      <li>タブの入れ替えとリネームを、スクリプトリストウインドウ内でできるようになりました。タブをドラッグで入れ替え、ダブルクリックでリネームできます。</li>
-      <li>リストウインドウの検索欄確定に、TABに加えてcommand+enterを追加。</li>
-      <li>SCRIPTMETA環境設定のUIを調整</li>
-    </ul>
-  </li>
-  <li>バグ修正
-    <ul>
-      <li>表示中のタブ以外のショートカットキーを拾ってしまう操作経路があったのを修正</li>
-      <li>AppleScriptで値を正しく取得できないプロパティがあったのを修正</li>
-    </ul>
-  </li>
+    <li>バグフィックス
+        <ul>
+            <li>githubをSCRIPTMETA配布場所にしたときの動作を修正</li>
+        </ul>
+    </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.5/Scripta-1.7.5.zip" length="23829523" type="application/octet-stream" sparkle:edSignature="gaOjRPUg5ZcPXna7yoUt1foa48tExTnu4amkQGjxKGyMMLclW9IlrhqeuG9OWAt7k4GNYNW4zFgU849x9SnOCg=="/>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>1.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.7/Scripta-1.7.7.zip" length="23842646" type="application/octet-stream" sparkle:edSignature="nzidsMyjZoBcZN/qvsNm/WVmkGOep3w/VAJvK+lu5TFESik1Y1/yrnvDHxZf0BBsAWyPW6pDkG855q4vIPz7CQ=="/>
         </item>
     </channel>
 </rss>

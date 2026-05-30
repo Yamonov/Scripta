@@ -3,22 +3,23 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.7.7</title>
-            <pubDate>Wed, 27 May 2026 20:49:52 +0900</pubDate>
+            <title>1.7.8</title>
+            <pubDate>Sat, 30 May 2026 15:03:19 +0900</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>1.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h1>Version 1.7.7</h1>
+<h1>Version 1.7.8</h1>
 <ul>
-    <li>バグフィックス
-        <ul>
-            <li>githubをSCRIPTMETA配布場所にしたときの動作を修正</li>
-        </ul>
-    </li>
+  <li>バグフィックス
+    <ul>
+      <li>IllustratorBetaで表示されるよう修正</li>
+      <li>リスト中にあるエイリアスファイルのSCRIPTMETA情報を表示するよう修正</li>
+    </ul>
+  </li>
 </ul>
 ]]></description>
-            <sparkle:version>99</sparkle:version>
-            <sparkle:shortVersionString>1.7.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.7/Scripta-1.7.7.zip" length="23842646" type="application/octet-stream" sparkle:edSignature="nzidsMyjZoBcZN/qvsNm/WVmkGOep3w/VAJvK+lu5TFESik1Y1/yrnvDHxZf0BBsAWyPW6pDkG855q4vIPz7CQ=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.8/Scripta-1.7.8.zip" length="23854085" type="application/octet-stream" sparkle:edSignature="A+UhqLjSg5DrB0dAhxJI4r/WMWDgm4BJ7JvFUcHXqCeZbCKe20AUWGwVnYFCzmxRyNPcwLkWRxDyc2+L5htyBg=="/>
         </item>
     </channel>
 </rss>

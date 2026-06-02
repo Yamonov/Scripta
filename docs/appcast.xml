@@ -3,23 +3,34 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.7.8</title>
-            <pubDate>Sat, 30 May 2026 15:03:19 +0900</pubDate>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>1.7.8</sparkle:shortVersionString>
+            <title>1.7.9</title>
+            <pubDate>Tue, 02 Jun 2026 14:07:56 +0900</pubDate>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>1.7.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h1>Version 1.7.8</h1>
+<h1>Version 1.7.9</h1>
 <ul>
   <li>バグフィックス
     <ul>
-      <li>IllustratorBetaで表示されるよう修正</li>
-      <li>リスト中にあるエイリアスファイルのSCRIPTMETA情報を表示するよう修正</li>
+      <li>エイリアス登録したスクリプトで、ショートカットキーが動作しない問題を修正</li>
+    </ul>
+  </li>
+  <li>タブ共通ショートカット機能を追加
+    <ul>
+      <li>アプリごとに、開いているタブにかかわらず機能するショートカットキー機能を追加しました。どのタブを開いていても同じショートカットでスクリプトを実行できます。基本的な機能を仕込むと便利です。</li>
+      <li>環境設定＞ショートカットキーで、共通タブ内にスクリプトファイルを取り込み、キーを設定してください。キーの優先順位は、拡張ショートカット＞共通＞各タブとなります。</li>
+      <li>エイリアスとして取り込みます。実体ファイルとは別に扱いますので、SCRIPTMETA編集はスクリプトのあるフォルダを通常タブとして登録し、そこから行ってください。</li>
+    </ul>
+  </li>
+  <li>タブスナップショット機能を追加
+    <ul>
+      <li>環境設定＞スクリプトフォルダで登録フォルダを削除する際、そのフォルダタブで設定したお気に入りやショートカットキー設定を画像キャプチャ付きで保存します。次に同じフォルダを登録したとき、スナップショットを選択して同じお気に入り・ショートカット設定の状態に復元できます。</li>
     </ul>
   </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.8/Scripta-1.7.8.zip" length="23854085" type="application/octet-stream" sparkle:edSignature="A+UhqLjSg5DrB0dAhxJI4r/WMWDgm4BJ7JvFUcHXqCeZbCKe20AUWGwVnYFCzmxRyNPcwLkWRxDyc2+L5htyBg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.7.9/Scripta-1.7.9.zip" length="24099793" type="application/octet-stream" sparkle:edSignature="2UWu3rkR6QnnDltcMF+HnPVSlbI+7papuMIENWSn1dGwuZqeUrWVPbpVONbtWOd3sed8cC9nlAjiHEYiOKtOCw=="/>
         </item>
     </channel>
 </rss>

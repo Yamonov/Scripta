@@ -3,29 +3,24 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8</title>
-            <pubDate>Mon, 08 Jun 2026 15:42:18 +0900</pubDate>
-            <sparkle:version>111</sparkle:version>
-            <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
+            <title>1.8.1</title>
+            <pubDate>Thu, 11 Jun 2026 14:00:35 +0900</pubDate>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8</h2>
-<h3>SCRIPTMETAKitを搭載</h3>
+<h2>Version 1.8.1</h2>
 <ul>
-  <li>ファイルスキャンやmeta周りの動作を、全て自作rustライブラリ「SCRIPTMETAKit」に移行しました。
+  <li>Bugfix
     <ul>
-      <li>スキャン動作が安定しました。</li>
-      <li>将来の対応スクリプトの仕様変更・増強に対応します。</li>
-      <li>同じライブラリを使うことで、ACEMenu Plusとの連携も安定・強化されました。</li>
+      <li>共通ショートカットの古いキャッシュが残ってしまい、新規登録時に衝突判定されてしまうバグを修正。</li>
+      <li>極まれにウインドウリサイズ後に一時的にUIが無反応になる可能性を除去しました。</li>
     </ul>
   </li>
-</ul>
-<h3>その他修正</h3>
-<ul>
-  <li>OS起動時、起動項目として起動したとき、外部HDDが安定するまでスキャンを開始しないようにしました。</li>
+  <li>大量項目のあるフォルダの表示を高速化。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8/Scripta-1.8.zip" length="28923334" type="application/octet-stream" sparkle:edSignature="cDnfk/nfIn1Tz0kbZTki/qadSTA+maiSosvSlPSNeCLJ25+L7lpnzXDuJsPhc/iIAwE99WRmPEBiya4nBwCvBA=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.1/Scripta-1.8.1.zip" length="29328263" type="application/octet-stream" sparkle:edSignature="/7wDgOqPtqFLTtIagAuq2g8HlAbwDP/rlOYhDS+LuX+peRp/LV3CBFpqCdh3NXe74agvE0Vetg4BmIgVNG+cDQ=="/>
         </item>
     </channel>
 </rss>

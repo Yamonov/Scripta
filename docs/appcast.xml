@@ -3,24 +3,25 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.1</title>
-            <pubDate>Thu, 11 Jun 2026 14:00:35 +0900</pubDate>
-            <sparkle:version>112</sparkle:version>
-            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+            <title>1.8.2</title>
+            <pubDate>Sat, 13 Jun 2026 23:04:10 +0900</pubDate>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.1</h2>
-<ul>
-  <li>Bugfix
-    <ul>
-      <li>共通ショートカットの古いキャッシュが残ってしまい、新規登録時に衝突判定されてしまうバグを修正。</li>
-      <li>極まれにウインドウリサイズ後に一時的にUIが無反応になる可能性を除去しました。</li>
-    </ul>
-  </li>
-  <li>大量項目のあるフォルダの表示を高速化。</li>
-</ul>
+# Version 1.8.2
+
+## Bugfix
++ ダークUIで、環境設定の視認性が落ちる問題を修正
++ 共有ショートカットキーと通常タブショートカットキーの衝突判定で、1回押しと2回押しの判定にミスがあったのを修正
+
+## 新機能
++ 共通ショートカットリストをタブ側でも見られるようボタンを追加しました。押すとリストを表示し、ショートカット編集や登録解除を行えます。
++ 共通ショートカットフォルダをFinderで表示するボタンを追加。エイリアスをフォルダに自由に整理できます。
++ 通常タブから共通ショートカットへエイリアスを登録する右クリックメニューを追加。
++ タブ側の環境設定をメニューバーと同様にタブをサブメニュー化し、直接アクセスできるように。
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.1/Scripta-1.8.1.zip" length="29328263" type="application/octet-stream" sparkle:edSignature="/7wDgOqPtqFLTtIagAuq2g8HlAbwDP/rlOYhDS+LuX+peRp/LV3CBFpqCdh3NXe74agvE0Vetg4BmIgVNG+cDQ=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.2/Scripta-1.8.2.zip" length="29512121" type="application/octet-stream" sparkle:edSignature="CLKArDRLYIH1wcoFBxxfbjxgkMR9SWEDXgNbhRAuh6uQjNt9/77J3BBMzHxTWzOppxrfOoWhnHSfBOikiUUFBQ=="/>
         </item>
     </channel>
 </rss>

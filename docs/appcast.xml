@@ -9,17 +9,19 @@
             <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-# Version 1.8.2
-
-## Bugfix
-+ ダークUIで、環境設定の視認性が落ちる問題を修正
-+ 共有ショートカットキーと通常タブショートカットキーの衝突判定で、1回押しと2回押しの判定にミスがあったのを修正
-
-## 新機能
-+ 共通ショートカットリストをタブ側でも見られるようボタンを追加しました。押すとリストを表示し、ショートカット編集や登録解除を行えます。
-+ 共通ショートカットフォルダをFinderで表示するボタンを追加。エイリアスをフォルダに自由に整理できます。
-+ 通常タブから共通ショートカットへエイリアスを登録する右クリックメニューを追加。
-+ タブ側の環境設定をメニューバーと同様にタブをサブメニュー化し、直接アクセスできるように。
+<h2>Version 1.8.2</h2>
+<h3>Bugfix</h3>
+<ul>
+  <li>ダークUIで、環境設定の視認性が落ちる問題を修正</li>
+  <li>共有ショートカットキーと通常タブショートカットキーの衝突判定で、1回押しと2回押しの判定にミスがあったのを修正</li>
+</ul>
+<h3>新機能</h3>
+<ul>
+  <li>共通ショートカットリストをタブ側でも見られるようボタンを追加しました。押すとリストを表示し、ショートカット編集や登録解除を行えます。</li>
+  <li>共通ショートカットフォルダをFinderで表示するボタンを追加。エイリアスをフォルダに自由に整理できます。</li>
+  <li>通常タブから共通ショートカットへエイリアスを登録する右クリックメニューを追加。</li>
+  <li>タブ側の環境設定をメニューバーと同様にタブをサブメニュー化し、直接アクセスできるように。</li>
+</ul>
 ]]></description>
             <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.2/Scripta-1.8.2.zip" length="29512121" type="application/octet-stream" sparkle:edSignature="CLKArDRLYIH1wcoFBxxfbjxgkMR9SWEDXgNbhRAuh6uQjNt9/77J3BBMzHxTWzOppxrfOoWhnHSfBOikiUUFBQ=="/>
         </item>

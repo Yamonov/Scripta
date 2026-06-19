@@ -3,23 +3,34 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.3</title>
-            <pubDate>Wed, 17 Jun 2026 17:13:13 +0900</pubDate>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>1.8.3</sparkle:shortVersionString>
+            <title>1.8.4</title>
+            <pubDate>Fri, 19 Jun 2026 21:59:27 +0900</pubDate>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>1.8.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.3</h2>
+<h2>Version 1.8.4</h2>
 <ul>
-  <li>SCRIPTMETAKitを更新
+  <li>新機能（拡張ショートカット）
     <ul>
-      <li>AppleScriptでのMETA情報取得のバグを修正</li>
-      <li>Scripta!のSCRIPTMETAKitライブラリを更新</li>
+      <li>Photoshopレイヤーリネームを専用ウインドウで大きな文字で入力できます。</li>
+      <li>Illustrator/InDesignで、選択したテキストフレーム内容や選択したテキストを専用ウインドウで編集できます。
+        <ul>
+          <li>IME再変換操作など全ての機能を使用可能</li>
+          <li>⌘+-、=で文字サイズ拡大縮小と初期化</li>
+          <li>ウインドウサイズを変更可能</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>修正
+    <ul>
+      <li>Photoshop操作の音量を200%まで調整できるようにしました。</li>
     </ul>
   </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.3/Scripta-1.8.3.zip" length="29515686" type="application/octet-stream" sparkle:edSignature="db9Nhz+0ik2wf8PpvW9jxlfq7zRLm+rI1exvTSbQrAu3x0PJxjJW3ovdQymbC68HC3G/tpp4bKtNJrY1ynuwBw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.4/Scripta-1.8.4.zip" length="29621155" type="application/octet-stream" sparkle:edSignature="GMz1WW4Mdfx5RrEeAa+uDdmpRrAubzxnXp4C3f37IqIV5Fxb7W19Dv79srbBsza3YYZaTjRlTsBv56+de52YDA=="/>
         </item>
     </channel>
 </rss>

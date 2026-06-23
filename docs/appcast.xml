@@ -3,22 +3,23 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.5</title>
-            <pubDate>Sat, 20 Jun 2026 01:59:22 +0900</pubDate>
-            <sparkle:version>121</sparkle:version>
-            <sparkle:shortVersionString>1.8.5</sparkle:shortVersionString>
+            <title>1.8.5.1</title>
+            <pubDate>Tue, 23 Jun 2026 23:56:41 +0900</pubDate>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>1.8.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.5</h2>
+<h2>Version 1.8.5.1</h2>
 <ul>
   <li>バグフィックス
     <ul>
-      <li>SCRIPTMETAKitのバグを修正しました。常駐時にごく少量CPUを使用していたのを修正</li>
+      <li>Finderで開くメニューがエイリアスを解決していなかったバグを修正</li>
+      <li>内蔵SCRIPTMETA編集機能で編集・保存したあと、ファイルリストに情報が反映されていなかったバグを修正</li>
     </ul>
   </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.5/Scripta-1.8.5.zip" length="29616329" type="application/octet-stream" sparkle:edSignature="SAzXTxJwf9jE9FJZ8yppSB2DTbw46mVfI0BssCzRvwKq+dMh00JUmJ65VhGZ6Bca3uwTFV0HWdnsv2kF7MHBDg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.5.1/Scripta-1.8.5.1.zip" length="29622299" type="application/octet-stream" sparkle:edSignature="emtce4VkN+R8f2Vhds0/b6r9UAsvHYFDfPRcrMS7OUswovw5MKWxjJsny4v18MLkU1S7irrRrn+y/our+8wbCg=="/>
         </item>
     </channel>
 </rss>

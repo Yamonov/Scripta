@@ -3,23 +3,25 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.5.1</title>
-            <pubDate>Tue, 23 Jun 2026 23:56:41 +0900</pubDate>
-            <sparkle:version>122</sparkle:version>
-            <sparkle:shortVersionString>1.8.5.1</sparkle:shortVersionString>
+            <title>1.8.6</title>
+            <pubDate>Tue, 30 Jun 2026 23:16:12 +0900</pubDate>
+            <sparkle:version>134</sparkle:version>
+            <sparkle:shortVersionString>1.8.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.5.1</h2>
+<h2>Version 1.8.6</h2>
 <ul>
-  <li>バグフィックス
+  <li>新機能 / New Features
     <ul>
-      <li>Finderで開くメニューがエイリアスを解決していなかったバグを修正</li>
-      <li>内蔵SCRIPTMETA編集機能で編集・保存したあと、ファイルリストに情報が反映されていなかったバグを修正</li>
+      <li>メニューバー項目に「タブを探す」メニューを追加しました。タブがどの辺にあるのかを矢印で示します。<br/>Added a "Find Tab" menu item to the menu bar item. It shows an arrow indicating which edge the tab is on.</li>
+      <li>タブ位置の上下左右、表示モニタ変更でも矢印を表示します。<br/>The arrow is also shown when changing the tab position or display monitor.</li>
+      <li>スクロールバーを独自実装のものに差し替え、すっきりした見た目にしました。<br/>Replaced the file list scrollbar with a custom implementation for a cleaner appearance.</li>
+      <li>その他UIの微調整。<br/>Other minor UI refinements.</li>
     </ul>
   </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.5.1/Scripta-1.8.5.1.zip" length="29622299" type="application/octet-stream" sparkle:edSignature="emtce4VkN+R8f2Vhds0/b6r9UAsvHYFDfPRcrMS7OUswovw5MKWxjJsny4v18MLkU1S7irrRrn+y/our+8wbCg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.6/Scripta-1.8.6.zip" length="29663847" type="application/octet-stream" sparkle:edSignature="wlA35QWky7ya8IIrUtVJwUn6D+TAekptT2z7ds2HfGLgt3yObNEXgDC/76Api7lXtFwOPcKmNRaUg9I8KVKhAg=="/>
         </item>
     </channel>
 </rss>

@@ -3,25 +3,22 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.6</title>
-            <pubDate>Tue, 30 Jun 2026 23:16:12 +0900</pubDate>
-            <sparkle:version>134</sparkle:version>
-            <sparkle:shortVersionString>1.8.6</sparkle:shortVersionString>
+            <title>1.8.6.1</title>
+            <pubDate>Fri, 03 Jul 2026 21:28:45 +0900</pubDate>
+            <sparkle:version>135</sparkle:version>
+            <sparkle:shortVersionString>1.8.6.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.6</h2>
+<h2>Version 1.8.6.1</h2>
 <ul>
-  <li>新機能 / New Features
+  <li>バグフィックス / Bug Fixes
     <ul>
-      <li>メニューバー項目に「タブを探す」メニューを追加しました。タブがどの辺にあるのかを矢印で示します。<br/>Added a "Find Tab" menu item to the menu bar item. It shows an arrow indicating which edge the tab is on.</li>
-      <li>タブ位置の上下左右、表示モニタ変更でも矢印を表示します。<br/>The arrow is also shown when changing the tab position or display monitor.</li>
-      <li>スクロールバーを独自実装のものに差し替え、すっきりした見た目にしました。<br/>Replaced the file list scrollbar with a custom implementation for a cleaner appearance.</li>
-      <li>その他UIの微調整。<br/>Other minor UI refinements.</li>
+      <li>Photoshopレイヤーリネームコードを簡素化し、深い階層のリネームに時間がかかっていたのを修正。<br/>Simplified the Photoshop layer rename code and fixed slow renaming in deeply nested layer groups.</li>
     </ul>
   </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.6/Scripta-1.8.6.zip" length="29663847" type="application/octet-stream" sparkle:edSignature="wlA35QWky7ya8IIrUtVJwUn6D+TAekptT2z7ds2HfGLgt3yObNEXgDC/76Api7lXtFwOPcKmNRaUg9I8KVKhAg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.6.1/Scripta-1.8.6.1.zip" length="29663165" type="application/octet-stream" sparkle:edSignature="21CtQDa7Lq/Lz3aEL7G48c4bpVZRkHyfadrwrojfE1X2KKoyTYqR4v3kOKckDnRu0xZaUXJlB3PDDqdmvRYQBg=="/>
         </item>
     </channel>
 </rss>

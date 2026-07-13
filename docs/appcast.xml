@@ -3,22 +3,19 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.6.1</title>
-            <pubDate>Fri, 03 Jul 2026 21:28:45 +0900</pubDate>
-            <sparkle:version>135</sparkle:version>
-            <sparkle:shortVersionString>1.8.6.1</sparkle:shortVersionString>
+            <title>1.8.8</title>
+            <pubDate>Tue, 14 Jul 2026 00:12:50 +0900</pubDate>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>1.8.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.6.1</h2>
+<h2>Version 1.8.8</h2>
 <ul>
-  <li>バグフィックス / Bug Fixes
-    <ul>
-      <li>Photoshopレイヤーリネームコードを簡素化し、深い階層のリネームに時間がかかっていたのを修正。<br/>Simplified the Photoshop layer rename code and fixed slow renaming in deeply nested layer groups.</li>
-    </ul>
-  </li>
+  <li>SCRIPTMETAKitを1.2.0に更新。高速化しました。<br/>Updated SCRIPTMETAKit to 1.2.0, improving performance.</li>
+  <li>タブの切り替え動作の仕様を見直し、かなり高速化しました。<br/>Revised the tab-switching behavior for significantly faster tab changes.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.6.1/Scripta-1.8.6.1.zip" length="29663165" type="application/octet-stream" sparkle:edSignature="21CtQDa7Lq/Lz3aEL7G48c4bpVZRkHyfadrwrojfE1X2KKoyTYqR4v3kOKckDnRu0xZaUXJlB3PDDqdmvRYQBg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.8/Scripta-1.8.8.zip" length="30557713" type="application/octet-stream" sparkle:edSignature="+ZpGr1h8eOpb9MATAVmtbRQVfrMsPbkipK/J6GE/gmv9sHvG2bIkiqjar6E/8eYsRNwNv2DqnZsZiTFTe5WJBA=="/>
         </item>
     </channel>
 </rss>

@@ -3,19 +3,21 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.8</title>
-            <pubDate>Tue, 14 Jul 2026 00:12:50 +0900</pubDate>
-            <sparkle:version>140</sparkle:version>
-            <sparkle:shortVersionString>1.8.8</sparkle:shortVersionString>
+            <title>1.8.9</title>
+            <pubDate>Fri, 17 Jul 2026 23:25:33 +0900</pubDate>
+            <sparkle:version>150</sparkle:version>
+            <sparkle:shortVersionString>1.8.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.8</h2>
+<h2>Version 1.8.9</h2>
 <ul>
-  <li>SCRIPTMETAKitを1.2.0に更新。高速化しました。<br/>Updated SCRIPTMETAKit to 1.2.0, improving performance.</li>
-  <li>タブの切り替え動作の仕様を見直し、かなり高速化しました。<br/>Revised the tab-switching behavior for significantly faster tab changes.</li>
+  <li>SCRIPTMETAKitを1.2.1に更新。APIを整理しました。<br/>Updated SCRIPTMETAKit to 1.2.1 and reorganized its API.</li>
+  <li>エイリアスの解決とショートカット設定に齟齬があったのを修正<br/>Fixed an inconsistency between alias resolution and shortcut settings.</li>
+  <li>展開ウインドウ上でのマウス操作でのCPU使用量を削減<br/>Reduced CPU usage from mouse interaction in the expanded window.</li>
+  <li>ウインドウを閉じる際にウェイトを入れ、操作感を向上<br/>Added a short delay before closing the window to improve usability.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.8/Scripta-1.8.8.zip" length="30557713" type="application/octet-stream" sparkle:edSignature="+ZpGr1h8eOpb9MATAVmtbRQVfrMsPbkipK/J6GE/gmv9sHvG2bIkiqjar6E/8eYsRNwNv2DqnZsZiTFTe5WJBA=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.9/Scripta-1.8.9.zip" length="30580795" type="application/octet-stream" sparkle:edSignature="bGLsjJKFo8pMz+YSYTCwnKLuQEMagnL2f1d2iBgmN6DF4pmvqQEsCHr6A8+fLwW06WJKI58gHpdswQ/QJ2u+DQ=="/>
         </item>
     </channel>
 </rss>

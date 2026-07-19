@@ -3,21 +3,26 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.9</title>
-            <pubDate>Fri, 17 Jul 2026 23:25:33 +0900</pubDate>
-            <sparkle:version>150</sparkle:version>
-            <sparkle:shortVersionString>1.8.9</sparkle:shortVersionString>
+            <title>1.8.9.2</title>
+            <pubDate>Sun, 19 Jul 2026 11:01:39 +0900</pubDate>
+            <sparkle:version>153</sparkle:version>
+            <sparkle:shortVersionString>1.8.9.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.9</h2>
+<h2>Version 1.8.9.2</h2>
 <ul>
-  <li>SCRIPTMETAKitを1.2.1に更新。APIを整理しました。<br/>Updated SCRIPTMETAKit to 1.2.1 and reorganized its API.</li>
-  <li>エイリアスの解決とショートカット設定に齟齬があったのを修正<br/>Fixed an inconsistency between alias resolution and shortcut settings.</li>
-  <li>展開ウインドウ上でのマウス操作でのCPU使用量を削減<br/>Reduced CPU usage from mouse interaction in the expanded window.</li>
-  <li>ウインドウを閉じる際にウェイトを入れ、操作感を向上<br/>Added a short delay before closing the window to improve usability.</li>
+  <li>UIの微調整とバグフィックス<br/>Minor UI refinements and bug fixes
+    <ul>
+      <li>お気に入りボタンにクリックできないエリアがあったのを修正<br/>Fixed an unresponsive area in the favorite button.</li>
+      <li>お気に入りに内容が移動した空フォルダを残すように修正<br/>Kept empty folders visible after their contents move into Favorites.</li>
+      <li>フォルダをお気に入りしたとき、内容のお気に入り状態を区別するよう調整<br/>Adjusted item indicators to distinguish favorite status inside favorited folders.</li>
+      <li>閉じるまでの時間を環境設定で選択可能にしました<br/>Added a preference for selecting the delay before closing.</li>
+      <li>共通ショートカットフォルダに直に実ファイルを入れているとき、削除時にその旨通知します<br/>When a regular file is placed directly in the Shared Shortcuts folder, a notice is now shown before deletion.</li>
+    </ul>
+  </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.9/Scripta-1.8.9.zip" length="30580795" type="application/octet-stream" sparkle:edSignature="bGLsjJKFo8pMz+YSYTCwnKLuQEMagnL2f1d2iBgmN6DF4pmvqQEsCHr6A8+fLwW06WJKI58gHpdswQ/QJ2u+DQ=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.9.2/Scripta-1.8.9.2.zip" length="30582983" type="application/octet-stream" sparkle:edSignature="gAOvxPAJo7ChBvLLA0FpdWCpQQdm7YP3v3wRWUStbm7Ikbj/Eoheokjyd2H6jXI3ies9wnafBUgN6yMNHhXiBg=="/>
         </item>
     </channel>
 </rss>

@@ -3,26 +3,29 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.9.2</title>
-            <pubDate>Sun, 19 Jul 2026 11:01:39 +0900</pubDate>
-            <sparkle:version>153</sparkle:version>
-            <sparkle:shortVersionString>1.8.9.2</sparkle:shortVersionString>
+            <title>1.8.13</title>
+            <pubDate>Wed, 22 Jul 2026 21:31:26 +0900</pubDate>
+            <sparkle:version>161</sparkle:version>
+            <sparkle:shortVersionString>1.8.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.9.2</h2>
+<h2>Version 1.8.13</h2>
 <ul>
-  <li>UIの微調整とバグフィックス<br/>Minor UI refinements and bug fixes
+  <li>新機能<br/>New Features
     <ul>
-      <li>お気に入りボタンにクリックできないエリアがあったのを修正<br/>Fixed an unresponsive area in the favorite button.</li>
-      <li>お気に入りに内容が移動した空フォルダを残すように修正<br/>Kept empty folders visible after their contents move into Favorites.</li>
-      <li>フォルダをお気に入りしたとき、内容のお気に入り状態を区別するよう調整<br/>Adjusted item indicators to distinguish favorite status inside favorited folders.</li>
-      <li>閉じるまでの時間を環境設定で選択可能にしました<br/>Added a preference for selecting the delay before closing.</li>
-      <li>共通ショートカットフォルダに直に実ファイルを入れているとき、削除時にその旨通知します<br/>When a regular file is placed directly in the Shared Shortcuts folder, a notice is now shown before deletion.</li>
+      <li>Scripta!で設定しているショートカットを一覧できます。設定ボタンをOption+クリック、または設定メニューから表示させてください。<br/>You can view a list of shortcuts configured in Scripta!. Option-click the Settings button or choose the command from the Settings menu.</li>
+      <li>commandキーを押しながらパネル内アイコンにマウスホバーで、各種機能の説明を表示します。<br/>Hold the Command key while hovering over icons in the panel to display descriptions of their functions.</li>
+    </ul>
+  </li>
+  <li>バグフィックスほか<br/>Bug Fixes and Other Improvements
+    <ul>
+      <li>Finderで削除したファイルを元に戻しても、Scripta!の再起動までリストに表示されなくなる不具合を修正しました。<br/>Fixed an issue where a file restored in Finder would not reappear in the list until Scripta! was restarted.</li>
+      <li>読み上げ音量を最大400%まで設定可能にしました。<br/>The speech volume can now be set up to 400%.</li>
     </ul>
   </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.9.2/Scripta-1.8.9.2.zip" length="30582983" type="application/octet-stream" sparkle:edSignature="gAOvxPAJo7ChBvLLA0FpdWCpQQdm7YP3v3wRWUStbm7Ikbj/Eoheokjyd2H6jXI3ies9wnafBUgN6yMNHhXiBg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.13/Scripta-1.8.13.zip" length="30774265" type="application/octet-stream" sparkle:edSignature="OE7FwKTtF6UGZrOPINVi7caoZNZu6tIPnlT78LG0fwnhsc9kPSrrqmQhhSS39evlKfD8KWf7VELZGJlGd3uQBw=="/>
         </item>
     </channel>
 </rss>

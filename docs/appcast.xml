@@ -3,29 +3,18 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.13</title>
-            <pubDate>Wed, 22 Jul 2026 21:31:26 +0900</pubDate>
-            <sparkle:version>161</sparkle:version>
-            <sparkle:shortVersionString>1.8.13</sparkle:shortVersionString>
+            <title>1.8.14</title>
+            <pubDate>Mon, 27 Jul 2026 09:57:25 +0900</pubDate>
+            <sparkle:version>164</sparkle:version>
+            <sparkle:shortVersionString>1.8.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.13</h2>
+<h2>Version 1.8.14</h2>
 <ul>
-  <li>新機能<br/>New Features
-    <ul>
-      <li>Scripta!で設定しているショートカットを一覧できます。設定ボタンをOption+クリック、または設定メニューから表示させてください。<br/>You can view a list of shortcuts configured in Scripta!. Option-click the Settings button or choose the command from the Settings menu.</li>
-      <li>commandキーを押しながらパネル内アイコンにマウスホバーで、各種機能の説明を表示します。<br/>Hold the Command key while hovering over icons in the panel to display descriptions of their functions.</li>
-    </ul>
-  </li>
-  <li>バグフィックスほか<br/>Bug Fixes and Other Improvements
-    <ul>
-      <li>Finderで削除したファイルを元に戻しても、Scripta!の再起動までリストに表示されなくなる不具合を修正しました。<br/>Fixed an issue where a file restored in Finder would not reappear in the list until Scripta! was restarted.</li>
-      <li>読み上げ音量を最大400%まで設定可能にしました。<br/>The speech volume can now be set up to 400%.</li>
-    </ul>
-  </li>
+  <li>検索UIを調整し、絞り込み中を分かりやすくしました。<br/>Adjusted the search interface to make it clearer when the list is being filtered.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.13/Scripta-1.8.13.zip" length="30774265" type="application/octet-stream" sparkle:edSignature="OE7FwKTtF6UGZrOPINVi7caoZNZu6tIPnlT78LG0fwnhsc9kPSrrqmQhhSS39evlKfD8KWf7VELZGJlGd3uQBw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.14/Scripta-1.8.14.zip" length="30776231" type="application/octet-stream" sparkle:edSignature="BcpPyl5N7sBZxBRf6N4+VF0Fw0hQZJJ96ZAwbJmnZwZIGtlBVaVaEgYBaJHnHDxn/yYQS5D7keqzJW8g78NvDA=="/>
         </item>
     </channel>
 </rss>

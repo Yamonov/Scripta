@@ -3,18 +3,22 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.8.14</title>
-            <pubDate>Mon, 27 Jul 2026 09:57:25 +0900</pubDate>
-            <sparkle:version>164</sparkle:version>
-            <sparkle:shortVersionString>1.8.14</sparkle:shortVersionString>
+            <title>1.9</title>
+            <pubDate>Wed, 05 Aug 2026 03:17:42 +0900</pubDate>
+            <sparkle:version>167</sparkle:version>
+            <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.8.14</h2>
+<h2>Version 1.9</h2>
 <ul>
-  <li>検索UIを調整し、絞り込み中を分かりやすくしました。<br/>Adjusted the search interface to make it clearer when the list is being filtered.</li>
+  <li>SCRIPTMETAKitを更新<br/>Updated SCRIPTMETAKit
+    <ul>
+      <li>フォルダのエイリアスがリスト内にあるとき、フォルダ内容の更新がされていなかったのを修正<br/>Fixed an issue where changes inside an aliased folder were not reflected when the folder alias was included in the list.</li>
+    </ul>
+  </li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.8.14/Scripta-1.8.14.zip" length="30776231" type="application/octet-stream" sparkle:edSignature="BcpPyl5N7sBZxBRf6N4+VF0Fw0hQZJJ96ZAwbJmnZwZIGtlBVaVaEgYBaJHnHDxn/yYQS5D7keqzJW8g78NvDA=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.9/Scripta-1.9.zip" length="30809869" type="application/octet-stream" sparkle:edSignature="OV2YXZOqHQo/vGRo2eQxZKKlOBSRdt3mlcInIVF7yfCxlIqskV0GMe2jJ0Y4eLoGB2V9hkCwT4oVZio9bYYMAA=="/>
         </item>
     </channel>
 </rss>

@@ -3,22 +3,19 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>1.9</title>
-            <pubDate>Wed, 05 Aug 2026 03:17:42 +0900</pubDate>
-            <sparkle:version>167</sparkle:version>
-            <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
+            <title>1.9.1</title>
+            <pubDate>Wed, 26 Aug 2026 14:22:43 +0900</pubDate>
+            <sparkle:version>169</sparkle:version>
+            <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>Version 1.9</h2>
+<h2>Version 1.9.1</h2>
 <ul>
-  <li>SCRIPTMETAKitを更新<br/>Updated SCRIPTMETAKit
-    <ul>
-      <li>フォルダのエイリアスがリスト内にあるとき、フォルダ内容の更新がされていなかったのを修正<br/>Fixed an issue where changes inside an aliased folder were not reflected when the folder alias was included in the list.</li>
-    </ul>
-  </li>
+  <li>SCRIPTMETAKitを1.3に、Sparkleを2.9.6に更新<br/>Updated SCRIPTMETAKit to 1.3 and Sparkle to 2.9.6.</li>
+  <li>アプリケーションを最前面化した直後に共有ショートカットの登録がされなかったり、遅れることがある問題を修正<br/>Fixed an issue where shared shortcuts could fail to register or register with a delay immediately after bringing an application to the foreground.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.9/Scripta-1.9.zip" length="30809869" type="application/octet-stream" sparkle:edSignature="OV2YXZOqHQo/vGRo2eQxZKKlOBSRdt3mlcInIVF7yfCxlIqskV0GMe2jJ0Y4eLoGB2V9hkCwT4oVZio9bYYMAA=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v1.9.1/Scripta-1.9.1.zip" length="30860066" type="application/octet-stream" sparkle:edSignature="7I4r1GUR2Rha6hGScOvWWqcpcPR/6AmiXQowZLnBv/LvKifsjGjvZqnrVZMRQU297Vq1s3090HiXDX6tDfNdCQ=="/>
         </item>
     </channel>
 </rss>

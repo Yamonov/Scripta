@@ -3,20 +3,24 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.0.1</title>
-            <pubDate>Wed, 16 Sep 2026 02:50:20 +0900</pubDate>
-            <sparkle:version>335</sparkle:version>
-            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <title>2.0.5</title>
+            <pubDate>Mon, 05 Oct 2026 17:32:08 +0900</pubDate>
+            <sparkle:version>340</sparkle:version>
+            <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-<h2>Version 2.0.1</h2>
+            <description xml:lang="en"><![CDATA[
+<h2>Version 2.0.5</h2>
 <ul>
-<li>タブが多い場合の動作とUIの調整<br/>Adjusted behavior and UI when there are many tabs.</li>
-<li>フォルダ編集ウインドウのUIを調整<br/>Adjusted the UI of the folder editor window.</li>
-<li>小さなバグの修正<br/>Fixed minor bugs.</li>
+<li>Revised the code to make Scripta operate more quietly when inactive.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.1/Scripta-2.0.1.zip" length="31904702" type="application/octet-stream" sparkle:edSignature="ze0QhJeBIrSX+zDD2j41jb4YRZbX/SyRwY16Q7kd7v5mLJ1++VrUXUms6ZMy8gFcIr12C3NU3mGlWmmZZmJ7Dw=="/>
+            <description xml:lang="ja"><![CDATA[
+<h2>Version 2.0.5</h2>
+<ul>
+<li>コードを見直し、非アクティブ時により静かに動作するようにしました。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.5/Scripta-2.0.5.zip" length="31914833" type="application/octet-stream" sparkle:edSignature="14WfmFJ3WnzLPTtbepnB1p7Y95x4RDUCmqbeALQW8ENxcAXOgbCpwOFoUSWxBEFI0RwHcLa/kbV/LrYFFpP3DA=="/>
         </item>
     </channel>
 </rss>

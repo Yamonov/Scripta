@@ -3,24 +3,20 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.0.5</title>
-            <pubDate>Mon, 05 Oct 2026 17:32:08 +0900</pubDate>
-            <sparkle:version>340</sparkle:version>
-            <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
+            <title>2.0.5.1</title>
+            <pubDate>Wed, 07 Oct 2026 00:50:57 +0900</pubDate>
+            <sparkle:version>346</sparkle:version>
+            <sparkle:shortVersionString>2.0.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.0.5</h2>
-<ul>
-<li>Revised the code to make Scripta operate more quietly when inactive.</li>
-</ul>
+<h2>Version 2.0.5.1</h2>
+<ul><li>Updated SCRIPTMETAKit and fixed minor bugs.</li></ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.0.5</h2>
-<ul>
-<li>コードを見直し、非アクティブ時により静かに動作するようにしました。</li>
-</ul>
+<h2>Version 2.0.5.1</h2>
+<ul><li>SCRIPTMETAKitを更新し、軽微なバグを修正しました。</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.5/Scripta-2.0.5.zip" length="31914833" type="application/octet-stream" sparkle:edSignature="14WfmFJ3WnzLPTtbepnB1p7Y95x4RDUCmqbeALQW8ENxcAXOgbCpwOFoUSWxBEFI0RwHcLa/kbV/LrYFFpP3DA=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.5.1/Scripta-2.0.5.1.zip" length="31951285" type="application/octet-stream" sparkle:edSignature="5HpXv3OCvWjI3IIZDQlYNVR/o2Hv1yhemDpm8Fy+n8GmSkOabjop2bglNObnf762mHWZzHBCjhpit3yx2npECg=="/>
         </item>
     </channel>
 </rss>

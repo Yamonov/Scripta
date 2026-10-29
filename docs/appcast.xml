@@ -3,20 +3,20 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.0.5.1</title>
-            <pubDate>Wed, 07 Oct 2026 00:50:57 +0900</pubDate>
-            <sparkle:version>346</sparkle:version>
-            <sparkle:shortVersionString>2.0.5.1</sparkle:shortVersionString>
+            <title>2.0.6</title>
+            <pubDate>Fri, 30 Oct 2026 00:11:30 +0900</pubDate>
+            <sparkle:version>357</sparkle:version>
+            <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.0.5.1</h2>
-<ul><li>Updated SCRIPTMETAKit and fixed minor bugs.</li></ul>
+<h2>Version 2.0.6</h2>
+<ul><li>Bug fixes: Improved keyboard shortcut stability.</li></ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.0.5.1</h2>
-<ul><li>SCRIPTMETAKitを更新し、軽微なバグを修正しました。</li></ul>
+<h2>Version 2.0.6</h2>
+<ul><li>バグフィックス：ショートカットキー動作の安定性を向上</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.5.1/Scripta-2.0.5.1.zip" length="31951285" type="application/octet-stream" sparkle:edSignature="5HpXv3OCvWjI3IIZDQlYNVR/o2Hv1yhemDpm8Fy+n8GmSkOabjop2bglNObnf762mHWZzHBCjhpit3yx2npECg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.6/Scripta-2.0.6.zip" length="35019938" type="application/octet-stream" sparkle:edSignature="82+1AnzU0vxQNCsGU8yZxuctIBNTbxNX3foEM4W4jCt9fdMi07Hwn8ISI3IJmnytmgULD3qcBxBJwH88+d6vCQ=="/>
         </item>
     </channel>
 </rss>

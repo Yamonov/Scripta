@@ -3,20 +3,30 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.0.6</title>
-            <pubDate>Fri, 30 Oct 2026 00:11:30 +0900</pubDate>
-            <sparkle:version>357</sparkle:version>
-            <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
+            <title>2.0.7</title>
+            <pubDate>Fri, 30 Oct 2026 19:29:30 +0900</pubDate>
+            <sparkle:version>381</sparkle:version>
+            <sparkle:shortVersionString>2.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.0.6</h2>
-<ul><li>Bug fixes: Improved keyboard shortcut stability.</li></ul>
+<h2>Version 2.0.7</h2>
+<ul>
+<li>Enhanced Find Tab to show tab locations even when the target application is not frontmost.</li>
+<li>Improved stability when controlling Scripta! through AppleScript.</li>
+<li>Other minor bug fixes.</li>
+<li>Slightly adjusted double-press behavior. The clone source rotation and scaling keys in Photoshop extended shortcuts can no longer have double-press assignments.</li>
+</ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.0.6</h2>
-<ul><li>バグフィックス：ショートカットキー動作の安定性を向上</li></ul>
+<h2>Version 2.0.7</h2>
+<ul>
+<li>タブを探す機能を強化し、対象アプリが前面でなくても、タブ位置を表示できるようにしました。</li>
+<li>Scripta!本体をAppleScriptで制御する際の安定性を向上。</li>
+<li>その他細かなバグ修正。</li>
+<li>二度押し操作の仕様を少し変更しました。Photoshop拡張ショートカットのコピーソース操作キーのうち、回転と拡大に関わるキーは二度押しの登録不可とします。</li>
+</ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.6/Scripta-2.0.6.zip" length="35019938" type="application/octet-stream" sparkle:edSignature="82+1AnzU0vxQNCsGU8yZxuctIBNTbxNX3foEM4W4jCt9fdMi07Hwn8ISI3IJmnytmgULD3qcBxBJwH88+d6vCQ=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.7/Scripta-2.0.7.zip" length="32364733" type="application/octet-stream" sparkle:edSignature="3c1CN5MfPukWTqYX4hcqqRGwNEQS00uLc9GuCTdQpjEW4jOOllqd3K3ij4ihnSFWorqOVOjFx/EUnqpvCXIzAg=="/>
         </item>
     </channel>
 </rss>

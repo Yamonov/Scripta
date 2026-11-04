@@ -3,30 +3,54 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.0.7</title>
-            <pubDate>Fri, 30 Oct 2026 19:29:30 +0900</pubDate>
-            <sparkle:version>381</sparkle:version>
-            <sparkle:shortVersionString>2.0.7</sparkle:shortVersionString>
+            <title>2.1</title>
+            <pubDate>Thu, 05 Nov 2026 00:41:46 +0900</pubDate>
+            <sparkle:version>460</sparkle:version>
+            <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.0.7</h2>
+<h2>Version 2.1</h2>
 <ul>
-<li>Enhanced Find Tab to show tab locations even when the target application is not frontmost.</li>
-<li>Improved stability when controlling Scripta! through AppleScript.</li>
-<li>Other minor bug fixes.</li>
-<li>Slightly adjusted double-press behavior. The clone source rotation and scaling keys in Photoshop extended shortcuts can no longer have double-press assignments.</li>
+<li>Upgraded to SCRIPTMETAKit 2.
+<ul>
+<li>Added support for localized metadata. Name, author, and Description can be written in multiple languages and displayed in the user&#x27;s language. For metadata syntax, see <a href="https://github.com/Yamonov/SCRIPTMETAKit">https://github.com/Yamonov/SCRIPTMETAKit</a>.</li>
+<li>You can edit metadata in multiple languages in Scripta!&#x27;s SCRIPTMETA editor window.</li>
+<li>SCRIPTMETAKit 2 also supports custom metadata fields. Support for editing these fields in Scripta! will be added in the next version.</li>
+<li>Fixed a text processing bug that could prevent metadata from being read correctly.</li>
+</ul>
+</li>
+<li>Added Traditional Chinese, Simplified Chinese, Korean, and other display languages to Scripta!, in addition to Japanese and English.
+</li>
+<li>Fixed a case where a tab could remain open when pinning mode was off.
+</li>
+<li>Fixed a bug that could make the Quit menu item unresponsive.
+</li>
+<li>Fixed a bug that could prevent focus from returning correctly to the original app after leaving an editing mode.
+</li>
 </ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.0.7</h2>
+<h2>Version 2.1</h2>
 <ul>
-<li>タブを探す機能を強化し、対象アプリが前面でなくても、タブ位置を表示できるようにしました。</li>
-<li>Scripta!本体をAppleScriptで制御する際の安定性を向上。</li>
-<li>その他細かなバグ修正。</li>
-<li>二度押し操作の仕様を少し変更しました。Photoshop拡張ショートカットのコピーソース操作キーのうち、回転と拡大に関わるキーは二度押しの登録不可とします。</li>
+<li>SCRIPTMETAKit2にバージョンアップ
+<ul>
+<li>メタ情報のローカライズに対応しました。複数言語でName、author、Descriptionを記述し、ユーザー言語で表示できます。メタ情報記述の方法は、<a href="https://github.com/Yamonov/SCRIPTMETAKit">https://github.com/Yamonov/SCRIPTMETAKit</a> を参照してください。</li>
+<li>Scripta!でのSCRIPTMETA編集ウインドウで、多言語編集ができます。</li>
+<li>SCRIPTMETAKit2では拡張属性も扱えますが、Scripta!での編集は次のバージョンから実装します。</li>
+<li>meta情報が正しく拾えないことがあるテキスト処理のバグを修正しました。</li>
+</ul>
+</li>
+<li>Scripta!の表示を日・英に加え、繁体、簡体、韓国語などに対応させました。
+</li>
+<li>ピン留めモードではないときに、タブが開きっぱなしになることがある経路を修正しました。
+</li>
+<li>終了メニューが無反応になることがあるバグを修正しました。
+</li>
+<li>各種編集モードから抜けたとき、正しく元のアプリに復帰しないことがあるバグを修正しました。
+</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.0.7/Scripta-2.0.7.zip" length="32364733" type="application/octet-stream" sparkle:edSignature="3c1CN5MfPukWTqYX4hcqqRGwNEQS00uLc9GuCTdQpjEW4jOOllqd3K3ij4ihnSFWorqOVOjFx/EUnqpvCXIzAg=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1/Scripta-2.1.zip" length="33709212" type="application/octet-stream" sparkle:edSignature="Yh/pPgUXHrOf+XAFz18JKKDTC02nIJgPwPIU49KxT8rqOgBgIZqEiDbdF6ZAvbRGhm6vIUhACopAoKRtKoZuAA=="/>
         </item>
     </channel>
 </rss>

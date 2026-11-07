@@ -3,54 +3,24 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.1</title>
-            <pubDate>Thu, 05 Nov 2026 00:41:46 +0900</pubDate>
-            <sparkle:version>460</sparkle:version>
-            <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
+            <title>2.1.1</title>
+            <pubDate>Sat, 07 Nov 2026 12:19:06 +0900</pubDate>
+            <sparkle:version>465</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.1</h2>
+<h2>Version 2.1.1</h2>
 <ul>
-<li>Upgraded to SCRIPTMETAKit 2.
-<ul>
-<li>Added support for localized metadata. Name, author, and Description can be written in multiple languages and displayed in the user&#x27;s language. For metadata syntax, see <a href="https://github.com/Yamonov/SCRIPTMETAKit">https://github.com/Yamonov/SCRIPTMETAKit</a>.</li>
-<li>You can edit metadata in multiple languages in Scripta!&#x27;s SCRIPTMETA editor window.</li>
-<li>SCRIPTMETAKit 2 also supports custom metadata fields. Support for editing these fields in Scripta! will be added in the next version.</li>
-<li>Fixed a text processing bug that could prevent metadata from being read correctly.</li>
-</ul>
-</li>
-<li>Added Traditional Chinese, Simplified Chinese, Korean, and other display languages to Scripta!, in addition to Japanese and English.
-</li>
-<li>Fixed a case where a tab could remain open when pinning mode was off.
-</li>
-<li>Fixed a bug that could make the Quit menu item unresponsive.
-</li>
-<li>Fixed a bug that could prevent focus from returning correctly to the original app after leaving an editing mode.
-</li>
+<li>Fixed an issue where custom metadata fields were not included in searches.</li>
 </ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.1</h2>
+<h2>Version 2.1.1</h2>
 <ul>
-<li>SCRIPTMETAKit2にバージョンアップ
-<ul>
-<li>メタ情報のローカライズに対応しました。複数言語でName、author、Descriptionを記述し、ユーザー言語で表示できます。メタ情報記述の方法は、<a href="https://github.com/Yamonov/SCRIPTMETAKit">https://github.com/Yamonov/SCRIPTMETAKit</a> を参照してください。</li>
-<li>Scripta!でのSCRIPTMETA編集ウインドウで、多言語編集ができます。</li>
-<li>SCRIPTMETAKit2では拡張属性も扱えますが、Scripta!での編集は次のバージョンから実装します。</li>
-<li>meta情報が正しく拾えないことがあるテキスト処理のバグを修正しました。</li>
-</ul>
-</li>
-<li>Scripta!の表示を日・英に加え、繁体、簡体、韓国語などに対応させました。
-</li>
-<li>ピン留めモードではないときに、タブが開きっぱなしになることがある経路を修正しました。
-</li>
-<li>終了メニューが無反応になることがあるバグを修正しました。
-</li>
-<li>各種編集モードから抜けたとき、正しく元のアプリに復帰しないことがあるバグを修正しました。
-</li>
+<li>ユーザー拡張メタデータが検索対象になっていなかったのを修正</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1/Scripta-2.1.zip" length="33709212" type="application/octet-stream" sparkle:edSignature="Yh/pPgUXHrOf+XAFz18JKKDTC02nIJgPwPIU49KxT8rqOgBgIZqEiDbdF6ZAvbRGhm6vIUhACopAoKRtKoZuAA=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1.1/Scripta-2.1.1.zip" length="33723379" type="application/octet-stream" sparkle:edSignature="4AEi24btp0FaAG0CoToBYDv+DumkuLvGCQq7/j3fOPFeD7UVR1I1ZGG/0Q2xu7EPc8FRWBT3F6/BTZ7fAHxgCw=="/>
         </item>
     </channel>
 </rss>

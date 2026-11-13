@@ -3,24 +3,48 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.1.1</title>
-            <pubDate>Sat, 07 Nov 2026 12:19:06 +0900</pubDate>
-            <sparkle:version>465</sparkle:version>
-            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <title>2.1.2</title>
+            <pubDate>Fri, 13 Nov 2026 18:00:12 +0900</pubDate>
+            <sparkle:version>505</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.1.1</h2>
+<h2>Version 2.1.2</h2>
 <ul>
-<li>Fixed an issue where custom metadata fields were not included in searches.</li>
+<li>Display execution history and usage frequency
+<ul>
+<li>Use the display-order toggle button to run scripts directly from history or usage-frequency lists for the current tab and other tabs.</li>
+<li>Display history and frequency groups within tabs.</li>
+</ul>
+</li>
+<li>Expand or collapse folders in bulk
+<ul>
+<li>In addition to the existing Option-click behavior for expanding or collapsing subfolders, Option-Shift-click lets you expand or collapse folders at the same level.</li>
+</ul>
+</li>
+<li>Other bug fixes
+</li>
 </ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.1.1</h2>
+<h2>Version 2.1.2</h2>
 <ul>
-<li>ユーザー拡張メタデータが検索対象になっていなかったのを修正</li>
+<li>実行履歴と利用頻度を表示
+<ul>
+<li>上下表示切り替えボタンから、タブ内の履歴・頻度と、他のタブも含めた履歴・頻度順のスクリプトを直接実行できます。</li>
+<li>タブ内に履歴と頻度グループを表示します。</li>
+</ul>
+</li>
+<li>フォルダの一括開閉機能
+<ul>
+<li>従来のoption+クリックでの子フォルダ一括開閉に加え、option+shiftクリックで同レベルのフォルダを一括開閉できます。</li>
+</ul>
+</li>
+<li>その他バグ修正
+</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1.1/Scripta-2.1.1.zip" length="33723379" type="application/octet-stream" sparkle:edSignature="4AEi24btp0FaAG0CoToBYDv+DumkuLvGCQq7/j3fOPFeD7UVR1I1ZGG/0Q2xu7EPc8FRWBT3F6/BTZ7fAHxgCw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1.2/Scripta-2.1.2.zip" length="34001318" type="application/octet-stream" sparkle:edSignature="PhVkU3m6SnZrydrNazFdLmPAjLEIdd+Kp2NYZpXQZ2zKQjDksSYbKhCYKNRvE12U0z4y06xyG0C+nJot/cRGAw=="/>
         </item>
     </channel>
 </rss>

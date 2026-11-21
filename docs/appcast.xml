@@ -3,48 +3,32 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.1.2</title>
-            <pubDate>Fri, 13 Nov 2026 18:00:12 +0900</pubDate>
-            <sparkle:version>505</sparkle:version>
-            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <title>2.1.3</title>
+            <pubDate>Sat, 21 Nov 2026 23:48:06 +0900</pubDate>
+            <sparkle:version>542</sparkle:version>
+            <sparkle:shortVersionString>2.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.1.2</h2>
+<h2>Version 2.1.3</h2>
 <ul>
-<li>Display execution history and usage frequency
-<ul>
-<li>Use the display-order toggle button to run scripts directly from history or usage-frequency lists for the current tab and other tabs.</li>
-<li>Display history and frequency groups within tabs.</li>
-</ul>
-</li>
-<li>Expand or collapse folders in bulk
-<ul>
-<li>In addition to the existing Option-click behavior for expanding or collapsing subfolders, Option-Shift-click lets you expand or collapse folders at the same level.</li>
-</ul>
-</li>
-<li>Other bug fixes
-</li>
+<li>You can now move the History/Frequency group above or below the Keyboard Shortcuts group. Choose its position based on how often you use it.</li>
+<li>Scripts shown in the History/Frequency group now remain in the regular list. Favorites and Keyboard Shortcuts continue to move scripts into their respective groups when assigned.</li>
+<li>Adjusted the appearance of the History/Frequency group to make its different behavior from other groups clearer.</li>
+<li>Fixed an issue that caused the shortcut list in Settings to appear slowly.</li>
+<li>Other minor bug fixes</li>
 </ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.1.2</h2>
+<h2>Version 2.1.3</h2>
 <ul>
-<li>実行履歴と利用頻度を表示
-<ul>
-<li>上下表示切り替えボタンから、タブ内の履歴・頻度と、他のタブも含めた履歴・頻度順のスクリプトを直接実行できます。</li>
-<li>タブ内に履歴と頻度グループを表示します。</li>
-</ul>
-</li>
-<li>フォルダの一括開閉機能
-<ul>
-<li>従来のoption+クリックでの子フォルダ一括開閉に加え、option+shiftクリックで同レベルのフォルダを一括開閉できます。</li>
-</ul>
-</li>
-<li>その他バグ修正
-</li>
+<li>履歴/頻度グループの位置をショートカットキーグループの上、下に移動できるようにしました。使用頻度に応じて使い分けられます。</li>
+<li>履歴/頻度グループに入ったスクリプトを、通常リストから移動しないよう変更しました。お気に入りやショートカットキーグループはこれまで通り、設定するとグループに移動します。</li>
+<li>履歴/頻度グループの表示を調整し、他のグループとは違う動作になることを分かりやすくしました。</li>
+<li>環境設定＞ショートカットリストの表示が遅くなっていた問題を修正しました。</li>
+<li>その他細かなバグフィックス</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1.2/Scripta-2.1.2.zip" length="34001318" type="application/octet-stream" sparkle:edSignature="PhVkU3m6SnZrydrNazFdLmPAjLEIdd+Kp2NYZpXQZ2zKQjDksSYbKhCYKNRvE12U0z4y06xyG0C+nJot/cRGAw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1.3/Scripta-2.1.3.zip" length="34100683" type="application/octet-stream" sparkle:edSignature="lrWtXdf/2lKdUjo7lGAHNEHfq6MjRy3m4pqdAWQtkWiKUb5D07vVhBh6OZsueheH3dKm8FR8hf49UF7wi1EfCw=="/>
         </item>
     </channel>
 </rss>

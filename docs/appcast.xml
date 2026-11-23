@@ -3,32 +3,44 @@
     <channel>
         <title>Scripta</title>
         <item>
-            <title>2.1.3</title>
-            <pubDate>Sat, 21 Nov 2026 23:48:06 +0900</pubDate>
-            <sparkle:version>542</sparkle:version>
-            <sparkle:shortVersionString>2.1.3</sparkle:shortVersionString>
+            <title>2.1.4</title>
+            <pubDate>Mon, 23 Nov 2026 13:25:25 +0900</pubDate>
+            <sparkle:version>584</sparkle:version>
+            <sparkle:shortVersionString>2.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
             <description xml:lang="en"><![CDATA[
-<h2>Version 2.1.3</h2>
+<h2>Version 2.1.4</h2>
 <ul>
-<li>You can now move the History/Frequency group above or below the Keyboard Shortcuts group. Choose its position based on how often you use it.</li>
-<li>Scripts shown in the History/Frequency group now remain in the regular list. Favorites and Keyboard Shortcuts continue to move scripts into their respective groups when assigned.</li>
-<li>Adjusted the appearance of the History/Frequency group to make its different behavior from other groups clearer.</li>
-<li>Fixed an issue that caused the shortcut list in Settings to appear slowly.</li>
-<li>Other minor bug fixes</li>
+<li>Improvements to history/frequency groups
+<ul>
+<li>You can now switch between history and frequency by clicking their icons in the panel.</li>
+<li>History/frequency groups can now be collapsed.</li>
+<li>Added a menu option to exclude favorites and items with assigned keyboard shortcuts.</li>
+</ul>
+</li>
+<li>Fixed an issue where clicking while holding the Command key could prevent the SCRIPTMETA popup from appearing.
+</li>
+<li>Other minor bug fixes
+</li>
 </ul>
 ]]></description>
             <description xml:lang="ja"><![CDATA[
-<h2>Version 2.1.3</h2>
+<h2>Version 2.1.4</h2>
 <ul>
-<li>履歴/頻度グループの位置をショートカットキーグループの上、下に移動できるようにしました。使用頻度に応じて使い分けられます。</li>
-<li>履歴/頻度グループに入ったスクリプトを、通常リストから移動しないよう変更しました。お気に入りやショートカットキーグループはこれまで通り、設定するとグループに移動します。</li>
-<li>履歴/頻度グループの表示を調整し、他のグループとは違う動作になることを分かりやすくしました。</li>
-<li>環境設定＞ショートカットリストの表示が遅くなっていた問題を修正しました。</li>
-<li>その他細かなバグフィックス</li>
+<li>履歴/頻度グループの改善
+<ul>
+<li>パネル上から履歴/頻度アイコンクリックで表示を切り替えられるようにしました。</li>
+<li>履歴/頻度グループを畳めるようにしました</li>
+<li>お気に入りやショートカットキー設定したものを除外する設定をメニュー内に用意しました</li>
+</ul>
+</li>
+<li>commandキーを押しながらクリックしたとき、SCRIPTMETAポップアップが表示されなくなる問題を修正
+</li>
+<li>その他細かなバグフィックス
+</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1.3/Scripta-2.1.3.zip" length="34100683" type="application/octet-stream" sparkle:edSignature="lrWtXdf/2lKdUjo7lGAHNEHfq6MjRy3m4pqdAWQtkWiKUb5D07vVhBh6OZsueheH3dKm8FR8hf49UF7wi1EfCw=="/>
+            <enclosure url="https://github.com/Yamonov/Scripta/releases/download/v2.1.4/Scripta-2.1.4.zip" length="34305015" type="application/octet-stream" sparkle:edSignature="YK78aPhc5wYdG2xZDJNTFBnFeB2Q47gosVLPgusp+ba0a6s94r+72qtgwA046v4GAXRB0ZAREjv23bSKeYmDDg=="/>
         </item>
     </channel>
 </rss>
